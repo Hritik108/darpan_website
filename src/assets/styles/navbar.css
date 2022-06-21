@@ -1,0 +1,20 @@
+.Navbar-main {
+    display: flex;
+    padding:  0% 10%;
+    background-color: black;
+    color: white;
+    
+}
+
+.Navbar-right{
+    display: flex;
+    position: absolute;
+    right:10%;
+    padding: 20px;
+}
+
+.Navbar-right a{
+    margin-left:30px;
+    text-decoration: none;
+    color: white;
+}
