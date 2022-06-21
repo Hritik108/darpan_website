@@ -3,6 +3,7 @@ import "../assets/styles/navbar.css"
 import Logo from "../assets/images/Logo.jpg"
 import jQuery from "jquery";
 
+
 class Navbar extends React.Component{
 
 
@@ -15,11 +16,11 @@ class Navbar extends React.Component{
         console.log(scrollTop)
 
         if (scrollTop > 10){
-            jQuery(".Navbar-main").css({"position":"fixed",height:"60px"});
+            jQuery(".Navbar-main").css({height:"60px"});
         }
 
         else{
-            jQuery(".Navbar-main").css({"position":"static",height:"80px"});
+            jQuery(".Navbar-main").css({height:"80px"});
         }
     }
     render(){
