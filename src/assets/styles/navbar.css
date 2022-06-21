@@ -3,7 +3,12 @@
     padding:  0% 10%;
     background-color: black;
     color: white;
-    
+    position: static; /* Set the navbar to fixed position */
+    transition:1s linear;
+    /* transition-delay: 1s; */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 82%; 
+    height: 80px;
 }
 
 .Navbar-right{
