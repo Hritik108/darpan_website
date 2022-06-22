@@ -1,26 +1,43 @@
-.Navbar-main {
-    display: flex;
-    padding:  0% 10%;
+.navbar-main {
     background-color: black;
+    height: 100px;
     color: white;
-    position: fixed; /* Set the navbar to fixed position */
-    transition:1s;
-    /* transition-delay: 1s; */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 82%; 
-    height: 80px;
+    top: 0;
+    /* padding: 0% 10%; */
 }
 
-.Navbar-right{
-    display: flex;
+.main-text{
+    font-size: 2em;
+    font-family:'Times New Roman', Times, serif ;
+    text-align: center;
+    padding: 3% 0% ;
+}
+
+.navbar-logo{
+    margin-top: -90px;
+    width: 10vw;
+    background-color: grey;
+    height: 10vw;
+    border-radius: 50%;
     position: absolute;
-    right:10%;
-    /* padding: 20px; */
+    margin-left: 10%;
 }
 
-.Navbar-right a{
-    margin-left:30px;
-    padding-top: 5%;
+.navbar-items{
+    height: 5vw;
+    /* margin-top: -30px; */
+    color: black;
+    position: static;
+    /* background-color: red; */
+    padding-right: 10%;
+    display: flex;
+    float: right;
+}
+
+.navbar-items a{
+    color: black;
+    right: 0;
+    padding: 0px 1.65vw;
+    font-size: 1.2em;
     text-decoration: none;
-    color: white;
 }

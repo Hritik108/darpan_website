@@ -25,18 +25,22 @@ class Navbar extends React.Component{
     }
     render(){
 
+
         return(
-            <div className="Navbar-main">
-                <div className="Navbar-left">
-                    <h3>I AM LOGO</h3>
-                </div>
-                <div className="Navbar-right">
+           <div className="navbar-main">
+               <div className="main-text">
+                    DARPAN WORLI
+               </div>
+               <div className="navbar-logo">
+               </div>
+               <div className="navbar-items">
+                    <a href="#">Home</a>
+                    <a href="#">Events</a>
+                    <a href="#">Career Counsiling</a>
                     <a href="#">lorem epsum</a>
                     <a href="#">lorem epsum</a>
-                    <a href="#">lorem epsum</a>
-                    <a href="#">lorem epsum</a>
-                </div>
-            </div>
+               </div>
+           </div>
         )
     }
 }
