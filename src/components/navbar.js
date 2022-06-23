@@ -16,37 +16,28 @@ class Navbar extends React.Component{
         console.log(scrollTop)
 
         if (scrollTop > 10){
-            jQuery(".Navbar-main").css({height:"60px"});
+            jQuery(".navbar-main").css({height:"60px",padding:'0% 5%',width:"100%"});
         }
 
         else{
-            jQuery(".Navbar-main").css({height:"80px"});
+            jQuery(".navbar-main").css({height:"80px",padding:'1% 10% 0% 10%',width:"80vw"});
         }
     }
     render(){
 
 
+
         return(
            <div className="navbar-main">
-               <div className="main-text">
-                    DARPAN WORLI
-               </div>
                <div className="navbar-logo">
+                    <h3>DARPAN WORLI</h3>
                </div>
-               <div className="navbar-items">
-                    <a href="/Home">Home</a>
-                    <a href="About">About Us</a>
-                    <div class="dropdown">
-                        <button class="dropbtn"> Events
-                        <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content">
-                        <a href="#">BHAGVAD GITA CLASSES</a>
-                        <a href="#">SATURDAY MORNING PROGRAM</a>
-                    </div>
-                    </div> 
-                    <a href="/Career">Career Counselling</a>
-                    <a href="/Contact">Contact Us</a>
+               <div className="navbar-right">
+                    <a href="/home">Home</a>
+                    <a href="/home">About Us</a>
+                    <a href="/home">Events</a>
+                    <a href="/home">Career Counseling</a>
+                    <a href="/home">Contact Us</a>
                </div>
            </div>
         )
