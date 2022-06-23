@@ -34,11 +34,19 @@ class Navbar extends React.Component{
                <div className="navbar-logo">
                </div>
                <div className="navbar-items">
-                    <a href="#">Home</a>
-                    <a href="#">Events</a>
-                    <a href="#">Career Counsiling</a>
-                    <a href="#">lorem epsum</a>
-                    <a href="#">lorem epsum</a>
+                    <a href="/Home">Home</a>
+                    <a href="About">About Us</a>
+                    <div class="dropdown">
+                        <button class="dropbtn"> Events
+                        <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                        <a href="#">BHAGVAD GITA CLASSES</a>
+                        <a href="#">SATURDAY MORNING PROGRAM</a>
+                    </div>
+                    </div> 
+                    <a href="/Career">Career Counselling</a>
+                    <a href="/Contact">Contact Us</a>
                </div>
            </div>
         )
