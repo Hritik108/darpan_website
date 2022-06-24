@@ -1,6 +1,5 @@
 import React from "react";
 import "../assets/styles/navbar.css"
-import Logo from "../assets/images/Logo.jpg"
 import jQuery from "jquery";
 
 
@@ -18,20 +17,20 @@ class Navbar extends React.Component{
 
     componentDidMount() {
         window.addEventListener('scroll', this.handleScroll);
-        if(window.location.pathname=="/Home"){
+        if(window.location.pathname === "/Home"){
             this.setState({active: "home"});}
-         else if(window.location.pathname=="/"){
+         else if(window.location.pathname === "/"){
             this.setState({active: "home"});}
-         else if (window.location.pathname=="/About"){
+         else if (window.location.pathname === "/About"){
             this.setState({active: "about"});}
    
-         else if (window.location.pathname=="/Events"){
+         else if (window.location.pathname === "/Events"){
          this.setState({active: "events"});}
          
-         else if (window.location.pathname=="/Career"){
+         else if (window.location.pathname === "/Career"){
          this.setState({active: "career"});}
    
-         else if (window.location.pathname=="/Contact"){
+         else if (window.location.pathname === "/Contact"){
          this.setState({active: "contact"});}
 
          console.log(this.state.active)
