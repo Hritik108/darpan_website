@@ -6,27 +6,20 @@ import Navbar from "./components/navbar"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from './pages/homepage';
 import AboutUs from './components/AboutUs'
-import Footer from "./components/Footer"
-
-export default function App() {
-  return (
-    <BrowserRouter>
-      <Navbar />
-      <Routes>
-      <Route path="/" element={<Navbar />}>
-          <Route index element={<HomePage />} />
-          <Route path="/About" element={ <AboutUs />}  />
-          <Route path="/Events" element={ <AboutUs />}  />
-          <Route path="/Career" element={ <AboutUs />}  />
-          <Route path="/Contact" element={ <AboutUs />}  />
-      </Route>
-      </Routes>
-    </BrowserRouter>
-  );
-}
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
+ 
+const root = ReactDOM.createRoot(
+  document.getElementById("root")
+);
+root.render(
+  <BrowserRouter>
+  <Navbar />
+    <Routes>
+      <Route path="/" element={HomePage} />
+      <Route path="Home" element={< HomePage />} />
+      <Route path="About" element={<AboutUs />} />
+    </Routes>
+  </BrowserRouter>
+);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
