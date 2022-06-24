@@ -7,13 +7,13 @@
   position: fixed;
   top: 0;
   width: 80vw;
-  border: solid  #1363DF;
   border-width: 0 0px 3px 0;
   transition: 1s;
 }
 
 .navbar-right{
   position: absolute;
+  display: flex;
   right: 0;
   padding-right: 10%;
   padding-top: 20px;
@@ -31,4 +31,13 @@
 .navbar-right a:hover{
   color: black;
   transition: .5s;
+}
+
+.circle{
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: orange;
+  margin: auto;
+  margin-top: 5px; 
 }
