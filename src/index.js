@@ -6,7 +6,8 @@ import Navbar from "./components/navbar"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from './pages/homepage';
 import AboutUs from './components/AboutUs'
- 
+import Footer from "./components/Footer"
+
 export default function App() {
   return (
     <BrowserRouter>

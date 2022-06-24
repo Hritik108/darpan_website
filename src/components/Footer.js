@@ -8,7 +8,7 @@ class Footer extends React.Component{
                     <img src="" alt="logo"/>
                     <div className="social-media">
                     {/* <i style={{fontSize:"24px"}} className="fa">&#xf16a;</i> */}
-                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-instagram"></i>  
                     <i style={{fontSize:"24px"}} className="fa">&#xf09a;</i>
                    <i style={{fontSize:"24px"}} className="fa">&#xf0e1;</i>
                     </div>
