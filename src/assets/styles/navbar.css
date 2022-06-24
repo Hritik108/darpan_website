@@ -4,7 +4,7 @@
   height: 80px;
   background-color: white;
   padding-top: 20px;
-  position: fixed;
+  position: static;
   top: 0;
   width: 80vw;
   border-width: 0 0px 3px 0;

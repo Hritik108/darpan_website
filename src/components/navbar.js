@@ -39,10 +39,10 @@ class Navbar extends React.Component{
       handleScroll(event){
         let scrollTop = window.pageYOffset;
         if (scrollTop > 10){
-            jQuery(".navbar-main").css({height:"60px",padding:'0% 5%',width:"95%",border:"solid  #1363DF",borderWidth:"0px 0px 4px 0px"});
+            jQuery(".navbar-main").css({position:"fixed",height:"60px",padding:'0% 5%',width:"95%",border:"solid  #1363DF",borderWidth:"0px 0px 4px 0px"});
         }
         else{
-            jQuery(".navbar-main").css({height:"80px",padding:'1% 10% 0% 10%',width:"80vw",border:"0px"});
+            jQuery(".navbar-main").css({position:"static",height:"80px",padding:'1% 10% 0% 10%',width:"80vw",border:"0px"});
         }
     }
     render(){
