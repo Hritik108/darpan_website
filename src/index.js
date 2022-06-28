@@ -6,7 +6,8 @@ import Navbar from "./components/navbar"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from './pages/homepage';
 import AboutUs from './components/AboutUs'
- 
+import Footer from "./components/Footer"
+
 const root = ReactDOM.createRoot(
   document.getElementById("root")
 );
@@ -18,6 +19,7 @@ root.render(
       <Route path="Home" element={< HomePage />} />
       <Route path="About" element={<AboutUs />} />
     </Routes>
+    <Footer />
   </BrowserRouter>
 );
 

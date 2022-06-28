@@ -1,0 +1,77 @@
+.footer-container{
+    /* box-sizing: border-box; */
+    width: 100%;
+    background-color: black;
+    display: block;
+}
+.footer-details{
+    width: 95%;
+    margin: auto;
+    padding: 30px 10px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.footer-items{
+    width: 25%;
+    /* height: 10%; */
+    padding:10px 20px;
+    box-sizing: border-box;
+   
+}
+.footer-items p{
+    text-align: justify;
+    line-height: 25px;
+    color: whitesmoke;
+}
+#logo{
+    width: 150px;
+    height: 130px;
+}
+.social-media{
+    padding-top: 5px;
+}
+.icons{
+    font-size: 40px;
+}
+#links-header{
+    margin-top: 10px 0;
+    color: whitesmoke;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.footer-links{
+    list-style: none;
+}
+.footer-links li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 21px;
+}
+.footer-links li{
+    margin: 10px 0px;
+}
+.footer-links li a:hover{
+    color: rgb(25, 151, 197);
+    border-bottom: 3px solid rgb(42, 197, 253);
+}
+.contact-info{
+    padding-left: 26%;
+}
+.contact-info h3{
+    color: whitesmoke;
+    font-size: 25px;
+}
+.contact-details{
+    list-style: none;
+    padding-left: 20px;
+}
+.contact-info ul li{
+    color:whitesmoke;
+    font-size: 20px;
+}
+#email-icon{
+    color: whitesmoke;
+    /* display: inline-block; */
+}
