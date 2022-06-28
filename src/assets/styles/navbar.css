@@ -1,3 +1,6 @@
+.navbar{
+  margin-bottom: 10%;
+}
 .navbar-main{
   padding : 0% 10%;
   display: flex;
@@ -9,6 +12,10 @@
   width: 80vw;
   border-width: 0 0px 3px 0;
   transition: 1s;
+}
+
+.navbar-main2{
+  position: fixed;
 }
 
 .navbar-right{
@@ -37,7 +44,7 @@
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background-color: orange;
+  background-color: #1363DF;
   margin: auto;
   margin-top: 5px; 
 }

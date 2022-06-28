@@ -9,6 +9,7 @@ class Navbar extends React.Component{
         super(props);
         this.state = {
             active :"home" ,
+            position : "static"
         }
         this.handleScroll = this.handleScroll.bind(this);
        
@@ -39,6 +40,7 @@ class Navbar extends React.Component{
       handleScroll(event){
         let scrollTop = window.pageYOffset;
         if (scrollTop > 10){
+
             jQuery(".navbar-main").css({height:"60px",padding:'0% 5%',width:"95%",border:"solid  #1363DF",borderWidth:"0px 0px 4px 0px"});
         }
         else{
@@ -47,6 +49,7 @@ class Navbar extends React.Component{
     }
     render(){
         return(
+            <div className="navbar">
            <div className="navbar-main">
                <div className="navbar-logo">
                     <h3>DARPAN WORLI</h3>
@@ -73,6 +76,7 @@ class Navbar extends React.Component{
                         <div className={`${this.state.active === "contact" ? 'circle': ''}`}></div>
                     </a>
                </div>
+           </div>
            </div>
         )
     }
