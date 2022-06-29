@@ -1,0 +1,29 @@
+.index-main{
+    height: 200px;
+    margin: 0% 10%;
+    /* background-color: black; */
+}
+
+.index-circle{
+    height: 100vh;
+    width: 50vw;
+    border-radius: 50%;
+}
+
+
+.desc-main h1 strong{
+    color: #1363DF;
+}
+.desc-main h3{
+    color: #1363DF;
+}
+
+.desc-sub{
+    margin-top: 3%;
+    width: 40%;
+}
+
+.css-sghohy-MuiButtonBase-root-MuiButton-root {
+    background-color: #06283D;
+}
+
