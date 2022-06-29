@@ -3,7 +3,13 @@ import "../assets/styles/footer.css";
 import Logo from "../assets/images/darpan_logo.png"
 import InstagramIcon from '@mui/icons-material/Instagram';
 import YouTubeIcon from '@mui/icons-material/YouTube';
+import FacebookIcon from '@mui/icons-material/Facebook';
 import EmailIcon from '@mui/icons-material/Email';
+import PhoneIcon from '@mui/icons-material/Phone';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+import { Button } from '@mui/material';
+
+
 
 class Footer extends React.Component{
     render(){
@@ -14,21 +20,7 @@ class Footer extends React.Component{
                     <img id="logo" src={Logo} alt="logo"/>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.</p>
-                    
-                    <div className="social-media">
-                    {/* <i style={{fontSize:"24px"}} className="fa">&#xf16a;</i> */}
-                    {/* <i class="fa-brands fa-instagram"></i>  */}
-                    
-                    <InstagramIcon className="icons" sx={{paddingRight:2,fontSize:35}} color="primary" />
-                    
-                    <YouTubeIcon className="icons" sx={{paddingRight:2,fontSize:35}} color = "primary" />
-                   
-                    
-                    {/* <i style={{fontSize:"24px"}} className="fa">&#xf09a;</i>
-                   <i style={{fontSize:"24px"}} className="fa">&#xf0e1;</i> */}
-                    </div>
+            ever since the 1500s, when an unknown printer.</p>
                 </div>
                 <div className="footer-items">
                     <h3 id="links-header">Useful Links</h3>
@@ -39,49 +31,34 @@ class Footer extends React.Component{
                         <li> <a href="#"> Contact Us</a> </li>
                         </ul>
                 </div>
-                    <div className="footer-items">
-                        <h3 id="links-header">CONTACT</h3>
-                        <ul className="contact-details">
-                        <EmailIcon id="email-icon" /><li>darpanworli@gmail.com</li>
+                <div className="footer-items">
+                    <h3 id="links-header">ABC</h3>
+                    <ul className="footer-links">
+                       <li> <a href="#">Home</a> </li> 
+                       <li> <a href="#">About Us</a> </li> 
+                        <li> <a href="#">Events</a> </li>
+                        <li> <a href="#"> Contact Us</a> </li>
                         </ul>
-                    </div>
-                
+                </div>
+                <div className="footer-items">
+                        <h3 id="links-header">CONTACT</h3>
+                        <ul className="footer-links">
+                        <li><EmailIcon className="contact-icon" /> darpanworli@gmail.com </li> 
+                        <li> <PhoneIcon className="contact-icon" /> +91 8454077945 </li>
+                        <li> <LocationOnIcon className="contact-icon" /><Button variant="contained" style={{ backgroundColor: "#06283D" }}>Location</Button></li>
+                        </ul>
+                        <p>Please Follow us on our social media platform</p>
+                        <div class="social-media">
+                            <a href=""><InstagramIcon className="icons" sx={{fontSize:25}} color="primary" /></a>
+                            <a href=""><YouTubeIcon className="icons" sx={{fontSize:25}} color = "primary" /></a>
+                            <a href=""><FacebookIcon className="icons" sx={{fontSize:25}} color = "primary" /></a>
+				        </div>
+                </div>
             </div>
+            <div class="footer-bottom">
+			Copyright &copy; Darpan Worli 2022. All rights reserved.
+		</div>
         </div>
-            /* // <div className="footer-home">
-            // <div className="contact-us" style={{backgroundColor:this.state.color}}>
-            // <div  id="footer-company">
-            //     <img src="" alt="logo"/>
-            // <div>
-            //     Lorem Ipsum is simply dummy text of the printing and typesetting
-            // industry. Lorem Ipsum has been the industry's standard dummy text
-            // ever since the 1500s, when an unknown printer took a galley of type
-            // and scrambled it to make a type specimen book.
-            //     </div>
-            // </div>
-            //     <div id="quick-links">
-            //         <h3>Quick Links</h3>
-            //         <div className="sub">Home</div>
-            //         <div className="sub">About US</div>
-            //         <div className="sub">Events</div>
-            //         <div className="sub">Bookings</div>                    
-            //     </div>
-            //     <div id="contact">
-            //         <h3>Contact</h3>
-            //         <div className="sub">Address</div>
-            //         <div className="sub">Email id</div>
-            //         <div className="sub">Contact no:</div>
-            //         <div className="sub">Lorem ipsum</div>
-            //     </div>
-            //     <div>
-            //     <div className="footer">
-            //     <i style={{fontSize:"24px"}} className="fa">&#xf16a;</i>
-            //     <i style={{fontSize:"24px"}} className="fa">&#xf09a;</i>
-            //     <i style={{fontSize:"24px"}} className="fa">&#xf0e1;</i>
-            //     </div>
-            //     </div>
-//         </div>
-                // </div> */
         );
     }
 }
