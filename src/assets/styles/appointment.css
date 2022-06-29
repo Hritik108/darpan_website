@@ -1,0 +1,50 @@
+.Appointment{
+color: #1363DF;
+background-color: azure;
+display: flex;
+flex-flow: row;
+width: 100vw;
+height: 100vh;
+color: aqua;
+}
+
+.Appointment-right{
+    padding-top: 10vh;
+    padding-right: 10vh;
+    color: #1363DF;
+    font-weight: bolder;
+    width: 50vw;
+    /* background-color: pink;  */
+    text-align: center;
+    height: 100vh;
+    font-size: 3vw;
+    
+}
+
+.Appointment-right-button button{
+    /* color:#1363DF; */
+    /* background-color: aqua; */
+    font-size: 3vw;
+    /* border-radius: 25px; */
+    padding: 2vh;
+    font-weight: bolder;
+}
+
+.Appointment-right-list{
+font-size: 3vh;
+}
+
+ .Appointment-left{
+    width: 50vw;
+     /* background-color: rgb(165, 125, 32);  */
+    font-size: 3vw;
+    height: 100vh;
+    padding-top: 10vh;
+    line-height: 1.6;
+    
+} 
+
+.Appointment-left img{
+    padding-left: 10vh;
+    width:500px;
+}
