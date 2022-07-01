@@ -16,7 +16,7 @@ root.render(
   <BrowserRouter>
   <Navbar />
     <Routes>
-      <Route path="/" element={HomePage} />
+      <Route path="/" element={ <HomePage />} />
       <Route path="Home" element={< HomePage />} />
       <Route path="About" element={<AboutUs />} />
       <Route path="Career" element={<Career />} />

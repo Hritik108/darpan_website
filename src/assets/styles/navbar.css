@@ -1,17 +1,27 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: -apple-system-tall-body
+}
 .navbar{
   margin-bottom: 10%;
 }
+
 .navbar-main{
   padding : 0% 10%;
   display: flex;
   height: 80px;
-  background-color: white;
   padding-top: 20px;
   position: fixed;
+  background-color: white;
   top: 0;
   width: 80vw;
   border-width: 0 0px 3px 0;
   transition: 1s;
+}
+
+.navbar-logo img{
+  padding-top: 2px;
+  max-width: 50%;
 }
 
 .navbar-main2{
@@ -33,6 +43,7 @@
   padding-left: 30px;
   color: #1363DF;
   font-weight: bolder;
+  font-size: 1.2em;
 }
 
 .navbar-right a:hover{
@@ -44,7 +55,64 @@
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background-color: #1363DF;
+  background-color: orange;
   margin: auto;
   margin-top: 5px; 
+}
+
+.navbar-menuB{
+  position: fixed;
+  /* margin: 0% 3%; */
+  margin-top: -10%;
+  display: flex;
+  height: 100%;
+}
+
+.hamburger{
+  font-size: 2em;
+  color: blue;
+  /* background-color: white; */
+  transition: .5;
+  padding: 10px 15px;
+}
+
+.hamburger:hover{
+  cursor: pointer;
+}
+
+.menu-sidebar{
+  background-color: white;
+  width: 0;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  transition: .5s;
+  position: fixed;
+  height: 100%;
+  border: 2px solid blue;
+  border-width: 0px 2px 0px 0px;
+  padding-top: 20%;
+}
+
+.menu-sidebar .path{
+  display: block;
+  margin: auto;
+  width: 75%;
+  text-decoration: none;
+  color: black;
+  padding-top: 20px;
+  font-size: 1.5em;
+}
+
+.closebtn{
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 2em;
+  padding-top: 20px;
+  padding-right: 5%;
+}
+
+.closebtn:hover{
+  cursor: pointer;
 }
