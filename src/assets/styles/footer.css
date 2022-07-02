@@ -9,6 +9,7 @@
     margin: auto;
     padding: 30px 10px;
     display: flex;
+    flex-wrap: wrap;
     box-sizing: border-box;
     justify-content: center;
 }
@@ -108,7 +109,9 @@
 	border: 1px solid grey;
 	transition: 0.3s;
 }
-
+.icons:hover{
+    background: grey;  
+}
 .footer-bottom {
     text-align: center;
 	padding: 10px;
@@ -123,6 +126,7 @@
 		width: 50%;
 	}
 }
+
 
 @media screen and (max-width: 600px) {
 	.footer-items {
