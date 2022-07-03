@@ -89,8 +89,9 @@ body {
   transition: .5s;
   position: fixed;
   height: 100%;
-  border: 2px solid blue;
-  border-width: 0px 2px 0px 0px;
+  border: 0px solid #1363DF;
+  border-style: dashed;
+  /* border-width: 0px 2px 0px 0px; */
   padding-top: 20%;
 }
 

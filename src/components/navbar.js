@@ -134,12 +134,12 @@ class Navbar extends React.Component{
         }
 
         function openNav(){
-            jQuery(".menu-sidebar").css({width:"40%"})
+            jQuery(".menu-sidebar").css({width:"40%",borderWidth:"0px 2px 0px 0px"})
             jQuery("body").css({marginLeft:"40%",Transition:".5s"})
         }
 
         function closeNav(){
-            jQuery(".menu-sidebar").css({width:"0%"})
+            jQuery(".menu-sidebar").css({width:"0%",borderWidth:"0px 0px 0px 0px"})
             jQuery("body").css({marginLeft:"0%",Transition:".5s"})
  
 
