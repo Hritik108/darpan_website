@@ -28,7 +28,7 @@ class Appointment extends React.Component {
 
             <div className="Appointment-right-button">
               {/* <button>Book an Appointment</button> */}
-              <Button variant="contained">Book an Appointment</Button>
+              <Button variant="contained" style={{ backgroundColor: "#06283D",position:"static" }}>Book an Appointment</Button>
             </div>
           </div>
         </div>
