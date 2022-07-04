@@ -58,6 +58,7 @@
 .footer-links li a:hover{
     color: rgb(25, 151, 197);
     border-bottom: 3px solid rgb(42, 197, 253);
+    transition: 0.5s;
 }
 .contact-info{
     padding-left: 26%;
@@ -111,6 +112,7 @@
 }
 .icons:hover{
     background: grey;  
+    transition: 1s;
 }
 .footer-bottom {
     text-align: center;

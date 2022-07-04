@@ -13,7 +13,7 @@ class Appointment extends React.Component {
           <div className="Appointment-right">
             <div>
               <p>
-                Confused about <br></br>Career Choices
+                Confused about <br />Career Choices
               </p>
             </div>
 
@@ -37,13 +37,16 @@ class Appointment extends React.Component {
           <div className="Appointment-services1">
             <div className="think">
               <img src={thinking} />
-            </div><div>
+            </div>
+            <div>
             <h1>One-to-one mentoring is the traditional model of mentoring in which a more senior individual is paired with a more junior individual in order to provide the younger person with guidance, support, and encouragement </h1>
-          </div></div>
+          </div>
+          </div>
           <div className="Appointment-services2">
             <div className="think">
               <img src={thinking} />
-            </div><div>
+            </div>
+          <div>
             <h1>One-to-one mentoring is the traditional model of mentoring in which a more senior individual is paired with a more junior individual in order to provide the younger person with guidance, support, and encouragement </h1>
 
             </div>

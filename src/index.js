@@ -23,7 +23,7 @@ root.render(
       <Route path="Career" element={<Career />} />
       <Route path="Contact" element={<Contactus />} />
     </Routes>
-    {/*   */}
+    <Footer />
   </BrowserRouter>
 );
 
