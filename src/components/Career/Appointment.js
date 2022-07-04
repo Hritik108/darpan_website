@@ -12,8 +12,12 @@ class Appointment extends React.Component {
           </div>
           <div className="Appointment-right">
             <div>
-              <p>
+              <p className="Appointment-right-moto">
                 Confused about <br></br>Career Choices
+              </p>
+              <p className="Appointment-right-moto-desc">
+              
+Mi arcu metus ad. Tellus tempor ornare convallis sodales vulputate. Felis inceptos taciti phasellus, aptent purus conubia cubilia! Fusce ad ante senectus consequat vel diam fames curae; odio feugiat quam eu. Dictum blandit, enim venenatis consectetur nam. Dictumst risus fringilla lacinia mattis eros suscipit
               </p>
             </div>
 

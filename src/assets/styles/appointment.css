@@ -6,6 +6,8 @@ display: block;
 width: 100vw;
 height: 100vh;
 color: aqua;
+font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+font-family: -apple-system-body;
 }
 
 .Appointment-top{
@@ -20,7 +22,7 @@ color: aqua;
     font-weight: bolder;
     width: 50vw;
     /* background-color: pink;  */
-    text-align: center;
+    /* text-align: center; */
     height: 100vh;
     font-size: 3vw;
     
@@ -51,7 +53,7 @@ font-size: 3vh;
 
 .Appointment-left img{
     padding-left: 10vh;
-    width:500px;
+    width:30vw;
 }
 
 .Appointment-services{
@@ -114,6 +116,17 @@ width: 100vw;
     display: flex;
     flex-flow: row-reverse;
     padding-left: 3vw;
+ }
+
+ .Appointment-right-button button {
+   font-size:max(1vw,1vh);
+   margin-top:max(2vw,2vh);
+   /* width:max(10vw,10vh) ; */
+   
+ }
+
+ .Appointment-right-moto-desc{
+font-size:large;
  }
 
 
