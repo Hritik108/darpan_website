@@ -1,7 +1,13 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: -apple-system-body;
+}
 .index-main{
-    height: 200px;
-    margin: 0% 10%;
+    /* height: 200px; */
+    margin: 10% 10% 0% 10%;
     /* background-color: black; */
+    /* display: flex; */
+    height: 100%;
 }
 
 .index-circle{
@@ -23,7 +29,16 @@
     width: 40%;
 }
 
-.css-sghohy-MuiButtonBase-root-MuiButton-root {
-    background-color: #06283D;
+.index-buttons Button:nth-child(2){
+   margin-left: 2%;
 }
 
+.index-image{
+    width: 7    0%;
+}
+
+.index-image img{
+    max-width: 100%;
+    /* min-width: 100%; */
+ /* margin-top: 10%; */
+}

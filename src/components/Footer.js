@@ -48,14 +48,14 @@ class Footer extends React.Component{
                         <li> <LocationOnIcon className="contact-icon" /><Button variant="contained" style={{ backgroundColor: "#06283D" }}>Location</Button></li>
                         </ul>
                         <p>Please Follow us on our social media platform</p>
-                        <div class="social-media">
+                        <div className="social-media">
                             <a href=""><InstagramIcon className="icons" sx={{fontSize:25}} color="primary" /></a>
                             <a href=""><YouTubeIcon className="icons" sx={{fontSize:25}} color = "primary" /></a>
                             <a href=""><FacebookIcon className="icons" sx={{fontSize:25}} color = "primary" /></a>
 				        </div>
                 </div>
             </div>
-            <div class="footer-bottom">
+            <div className="footer-bottom">
 			Copyright &copy; Darpan Worli 2022. All rights reserved.
 		</div>
         </div>

@@ -2,12 +2,13 @@ import React from "react";
 import "../../assets/styles/Home/homeindex.css"
 import { Button } from '@mui/material';
 import jQuery from 'jquery';
+import Mountain from "../../assets/images/Mountain.jpeg"
 
 class Homeindex extends React.Component{
 
     render(){
         return (
-            <div className="index-main" style={{"height":window.innerheight}}>
+            <div className="index-main" style={{height:window.innerHeight -150}}>
                 <div className="index-description">
                     <div className="desc-main">
                         <h3>Govardhan Eco-Village</h3>
@@ -22,10 +23,14 @@ class Homeindex extends React.Component{
                         </p>
                     </div>
                     <div className="index-buttons">
-                        <Button variant="contained" style={{ backgroundColor: "#06283D" }}>KNOW MORE</Button>
-                        {/* <Button variant="contained">Button</Button> */}
+                        <Button variant="contained" style={{ backgroundColor: "#06283D",position:"static" }}>KNOW MORE</Button>
+                        <Button variant="contained" style={{ backgroundColor: "#06283D",position:"static" }}>ASK US ANYTHING</Button>
+                        
                     </div>  
                 </div>
+                <div className="index-image">
+                        <img src={Mountain} />
+                    </div>
             </div>
         )
     }

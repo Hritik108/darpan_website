@@ -9,15 +9,18 @@ class Navbar extends React.Component{
         super(props);
         this.state = {
             active :"home" ,
-            position : "static"
+            isResponsive: true,
         }
         this.handleScroll = this.handleScroll.bind(this);
+        this.handleResize = this.handleResize.bind(this);
        
       }
   
 
     componentDidMount() {
         window.addEventListener('scroll', this.handleScroll);
+        window.addEventListener('resize', this.handleResize);
+        this.handleResize();
         if(window.location.pathname === "/Home"){
             this.setState({active: "home"});}
          else if(window.location.pathname === "/"){
@@ -33,8 +36,25 @@ class Navbar extends React.Component{
    
          else if (window.location.pathname === "/Contact"){
          this.setState({active: "contact"});}
+      }
 
-         console.log(this.state.active)
+      componentWillUnmount(){
+          window.removeEventListener("scroll",this.handleScroll);
+          window.removeEventListener("resize",this.handleResize);
+      }
+
+      handleResize(e){
+          let isResponsive = true;
+
+          if (window.innerWidth > 880){
+              isResponsive = true;
+          }
+          else{
+              isResponsive = false;
+        }
+
+          this.setState({isResponsive})
+          
       }
 
       handleScroll(event){
@@ -48,6 +68,10 @@ class Navbar extends React.Component{
         }
     }
     render(){
+
+        const {isResponsive} = this.state;
+
+        if (isResponsive){
         return(
             <div className="navbar">
            <div className="navbar-main">
@@ -78,7 +102,48 @@ class Navbar extends React.Component{
                </div>
            </div>
            </div>
-        )
+        );
+        }
+
+        else{
+            return (
+                <div className="navbar-menuB">
+                    <div className="menu-sidebar">
+                    <a className="closebtn" onClick={() => closeNav()}>×</a>
+                    <a className="path" href="/Home">
+                        Home
+                        </a>
+                    <a className="path" href="/About">
+                        About Us
+                        </a>
+                    <a className="path" href="/Events">
+                        Events
+                        </a>
+                    <a className="path" href="/Career">
+                        Career Counseling
+                        </a>
+                    <a className="path" href="/Contact">
+                        Contact Us
+                    </a>
+                    </div>
+                    <div className="hamburger" onClick={ ()=> openNav()}>
+                            ☰
+                    </div>
+                </div>
+            );
+        }
+
+        function openNav(){
+            jQuery(".menu-sidebar").css({width:"40%",borderWidth:"0px 2px 0px 0px"})
+            jQuery("body").css({marginLeft:"40%",Transition:".5s"})
+        }
+
+        function closeNav(){
+            jQuery(".menu-sidebar").css({width:"0%",borderWidth:"0px 0px 0px 0px"})
+            jQuery("body").css({marginLeft:"0%",Transition:".5s"})
+ 
+
+        }
     }
 }
 
