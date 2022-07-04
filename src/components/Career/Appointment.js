@@ -65,6 +65,8 @@ Mi arcu metus ad. Tellus tempor ornare convallis sodales vulputate. Felis incept
             <h1>One-to-one mentoring is the traditional model of mentoring in which a more senior individual is paired with a more junior individual in order to provide the younger person with guidance, support, and encouragement </h1>
           </div>
         </div>
+        
+        {/* https://www.freepik.com/free-vector/employees-giving-hands-helping-colleagues-walk-upstairs_7732609.htm#query=climbing%20vectors&position=27&from_view=search */}
       </div>
     );
   }
