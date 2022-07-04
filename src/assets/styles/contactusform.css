@@ -1,0 +1,60 @@
+h1{
+    color: #1363DF;
+
+}
+
+/* .input{
+line-height: 3rem;
+} */
+input[type="text"]{  line-height: 3rem;
+font-size:larger }
+
+input[type="tel"]{  line-height: 3rem;
+    font-size:larger }
+
+input[type="email"]{  line-height: 3rem;
+        font-size:larger }
+
+.Contactusform{
+    line-height: 3rem;
+    /* margin-left: 4vw; */
+    width: 90vw;
+    padding-left: 5vw;
+}
+
+.Contactusform1{
+    display: flex;
+    width:90vw;
+}
+
+.Contactusform1 div{
+    display: flex;
+    width:45vw;
+}
+
+.Contactusform1 div input{
+    display: flex;
+    width:40vw;
+}
+
+
+.Contactusform2 input{
+    color: aqua;
+    display: flex;
+    width:40vw;
+    /* display: inline-block; */
+}
+
+.Contactusform3 input{
+    color: aqua;
+    display: flex;
+    width:40vw;
+    /* display: inline-block; */
+}
+
+.Contactusform4 {
+    display:flex;
+    flex-flow: column;
+    width: 50vw;
+    /* display: inline-block; */
+}
