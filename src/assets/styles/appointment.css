@@ -23,19 +23,12 @@ font-family: -apple-system-body;
     width: 50vw;
     /* background-color: pink;  */
     /* text-align: center; */
-    height: 100vh;
-    font-size: 3vw;
+    /* height: 100vh; */
+    /* font-size: 3vw; */
     
 }
 
-.Appointment-right-button button{
-    /* color:#1363DF; */
-    /* background-color: aqua; */
-    font-size: 2vw;
-    /* border-radius: 25px; */
-    padding: 3vh;
-    font-weight: bolder;
-}
+
 
 .Appointment-right-list{
 font-size: 3vh;
@@ -122,11 +115,21 @@ width: 100vw;
    font-size:max(1vw,1vh);
    margin-top:max(2vw,2vh);
    /* width:max(10vw,10vh) ; */
+   /* color:#1363DF; */
+    /* background-color: aqua; */
+    /* font-size: 1.5rem; */
+    /* border-radius: 25px; */
+    font-weight: bolder;
    
+ }
+
+ .Appointment-right-moto{
+   font-size: 3rem;
  }
 
  .Appointment-right-moto-desc{
 font-size:large;
+line-height: 2rem;
  }
 
 
