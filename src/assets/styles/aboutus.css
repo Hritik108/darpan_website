@@ -1,5 +1,6 @@
 .about-home {
     width: 100%;
+    overflow-x: hidden;
   }
   
   .heading-text  {
@@ -37,4 +38,238 @@
 .about-content{
     margin-left: 5%;
     margin-right: 5%;
+}
+
+.cbp_tmtimeline {
+	margin: 30px 0 0 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+  z-index: -1;
+} 
+.timeline-main,
+.timeline-container > header {
+	width: 90%;
+	max-width: 69em;
+	margin: 0 auto;
+	padding: 0 1.875em 3.125em 1.875em;
+}
+
+/* The line */
+.cbp_tmtimeline:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 6px;
+	background:#3BB0A0;
+	left: 33.5%;
+	margin-left: -10px;
+}
+
+/* The date/time */
+.cbp_tmtimeline > li {
+	position: relative;
+}
+
+.cbp_tmtimeline > li .cbp_tmtime {
+	display: block;
+	width: 15%;
+	padding-right: 100px;
+  padding-top: 20px;
+	position: absolute;
+}
+
+.cbp_tmtimeline > li .cbp_tmtime span {
+	display: block;
+	text-align: right;
+}
+
+/* .cbp_tmtimeline > li .cbp_tmtime span:first-child {
+	font-size: 0.9em;
+	color: #bdd0db;
+} */
+
+.cbp_tmtimeline > li .cbp_tmtime span:last-child {
+  margin-top: 15px;
+  font-weight: bold;
+	font-size: 2.5em;
+	color: #007464;
+}
+
+.cbp_tmtimeline > li:nth-child(odd) .cbp_tmtime span:last-child {
+  margin-top: 15px;
+  font-weight: bold;
+	color: #3BB0A0;;
+}
+
+/* Right content */
+.cbp_tmtimeline > li .cbp_tmlabel {
+	margin: 0 0 70px 50%;
+	background:  #007464;
+	color: #fff;
+	padding: 2em;
+	font-size: 1.2em;
+	font-weight: 300;
+	line-height: 1.4;
+	position: relative;
+	border-radius: 30px;
+}
+
+.cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel {
+	background: #EFF9F8;
+}
+
+.cbp_tmtimeline > li .cbp_tmlabel h2 { 
+	margin-top: 0px;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid rgba(255,255,255,0.4);
+}
+.cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel p{
+  line-height: 30px;
+  color: #007464;
+  font-weight: bold;
+  font-size: 20px;
+}
+.cbp_tmtimeline > li .cbp_tmlabel p{
+  line-height: 30px;
+  color:  #EFF9F8;
+  font-weight: bold;
+  font-size: 20px;
+}
+/* The triangle */
+.cbp_tmtimeline > li .cbp_tmlabel:after {
+	right: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+  margin-top: 45px;
+	border-right-color:  #007464;
+	border-width: 10px;
+	top: 10px;
+}
+
+.cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after {
+	border-right-color: #EFF9F8;
+}
+
+/* The icons */
+.cbp_tmtimeline > li .cbp_tmicon {
+	width: 100px;
+	height: 100px;
+	font-family: 'ecoico';
+	/* speak: none; */
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	font-size: 1.4em;
+	line-height: 40px;
+	-webkit-font-smoothing: antialiased;
+	position: absolute;
+	color: #fff;
+	background: #EFF9F8;
+  background-image: url("");
+  background-position: center;
+  background-repeat: no-repeat;
+	border-radius: 50%;
+	/* box-shadow: 0 0 0 8px #afdcf8; */
+  border: 6px solid #3BB0A0;
+	text-align: center;
+	left: 30%;
+	top: 0;
+	margin: 0 0 0 -25px;
+}
+.bank-icon{
+  width: 50px;
+  height: 50px;
+  margin-top: 18px;
+  margin-right: 15px;
+}
+/* .cbp_tmicon-phone:before {
+	content: "\e000";
+} */
+
+.cbp_tmicon-screen:before {
+	content: "\e001";
+}
+
+.cbp_tmicon-mail:before {
+	content: "\e002";
+}
+
+.cbp_tmicon-earth:before {
+	content: "\e003";
+}
+
+/* Example Media Queries */
+@media screen and (max-width: 1100px){
+  .cbp_tmtimeline:before{
+    left: 34%;
+  }
+}
+/* @media screen and (max-width: 1035px){
+  .cbp_tmtimeline:before{
+    left: 35%;
+  }
+} */
+@media screen and (max-width: 65.375em) {
+
+	.cbp_tmtimeline > li .cbp_tmtime span:last-child {
+		font-size: 1.5em;
+	}
+  .cbp_tmtimeline:before{
+    left: 35%;
+  }
+}
+
+@media screen and (max-width: 47.2em) {
+	.cbp_tmtimeline:before {
+		display: none;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmtime {
+		width: 100%;
+		position: relative;
+		padding: 0 0 20px 0;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmtime span {
+		text-align: left;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmlabel {
+		margin: 0 0 30px 0;
+		padding: 1em;
+		font-weight: 400;
+		font-size: 95%;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmlabel:after {
+		right: auto;
+		left: 25px;
+		border-right-color: transparent;
+		border-bottom-color: #007464;
+		top: -65px;
+	}
+
+	.cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after {
+    /* left: 3px; */
+		border-right-color: transparent;
+		border-bottom-color: #EFF9F8;
+    margin-top: 45px;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmicon {
+    background-size: 30px;
+    width: 50px;
+    height: 42px;
+		position: relative;
+		float: right;
+		left: auto;
+		margin: -55px 5px 0 0px;
+	}	
 }
