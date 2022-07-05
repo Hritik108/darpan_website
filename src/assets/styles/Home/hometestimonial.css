@@ -1,0 +1,29 @@
+
+.carousel-item{
+    margin: auto;
+    width: 600px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.carousel-item div{
+    padding: 5% 5%;
+    display: flex;
+}
+
+.item-right{
+    width: 40%;
+}
+
+.item-left img{
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.item-header h1{
+    font-size: 1.2em;
+    color: #1F4690;
+    margin-bottom: -10px;
+}
