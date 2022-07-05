@@ -10,22 +10,21 @@ class Contactusform extends React.Component {
       
        <form>
       
-      <div className="Contactusform1">
+     
 
-        <div>
+        <div className="Contactusform0">
       <label>Enter your name:&nbsp;
       &nbsp;&nbsp;
         <input type="text"  placeholder="Your name.."/>
       </label>
       </div>
        
-       <div>
+       <div  className="Contactusform1">
       <label>Phone Number:
         <input type="tel"  placeholder="Your number.." pattern="[0-9]{3} [0-9]{3} [0-9]{4}" maxlength="10" />
       </label>
       </div>
 
-</div>
 
 <div  className="Contactusform2">
 <label>Enter your Email:
@@ -43,7 +42,7 @@ class Contactusform extends React.Component {
 <label>Comment:
         {/* <input type="text"  placeholder="Comment.." /> */}
       </label>
-        <textarea  rows="9" cols="60"></textarea>
+      <input type="text"  placeholder="Any Comment"/>
 </div>
 
     </form>

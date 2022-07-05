@@ -1,203 +1,64 @@
 .Appointment{
-color: #1363DF;
-/* background-color: azure; */
-display: block;
-/* flex-flow: column; */
-width: 100vw;
-color: aqua;
-font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-font-family: -apple-system-body;
+   padding: 0% 10%;
+}
+.Appointment-top{
+   display: flex;
+   height:80vh;
+   position: static;
 }
 
-.Appointment-top{
-    display: flex;
-    flex-flow: row;
+.Appointment-left{
+   width: 70%;
 }
 
 .Appointment-right{
-    padding-top: 10vh;
-    padding-right: 10vh;
-    color: #1363DF;
-    font-weight: bolder;
-    width: 50vw;
-    /* background-color: pink;  */
-    /* text-align: center; */
-    /* height: 100vh; */
-    /* font-size: 3vw; */
-    
+   width: 100%;
+   padding-left: 10%;
+
 }
-
-
-
-.Appointment-right-list{
-font-size: 3vh;
-}
-
- .Appointment-left{
-    width: 50vw;
-     /* background-color: rgb(165, 125, 32);  */
-    font-size: 3vw;
-    padding-top: 10vh;
-    line-height: 1.6;
-    
-} 
 
 .Appointment-left img{
-    padding-left: 10vh;
-    width:30vw;
+   width: 100%;
 }
 
-.Appointment-services{
-    display: flex;
-    flex-flow: column;
-    /* background-color:palevioletred; */
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-.Appointment-services1 img{
-    width: 20vw;
-    /* display: flex; */
-    /* display: inline-block; */
-    /* background-color: #1363DF; */
-     /* float: right; */
-    /* flex-flow: row; */
-
-}
-
- .think {
-/* width: 100vw; */
-}
-
-.Appointment-services1 h1{
-   padding-top: 10%;
-   padding-left: 0%;
-   margin-left: 0%;
-   width:60%;
-   color: #1363DF;
-   font-size: 1.5rem;
-}
-
-.Appointment-services2 img{
-   width: 20vw;
-    /* display: flex; */
-    /* background-color: #1363DF; */
-    /* float: left; */
-    /* flex-flow: row; */
-
-}
-
-.Appointment-services2 h1{
-    padding-top: 10%;
-    padding-right: 0%;
-    /* margin-right: 10%; */
-    color: #1363DF;
-    font-size: 1.5rem;
-    width:60%;
-    
- }
-
- .Appointment-services1{
-    /* text-align: left; */
-    display: flex;
-    text-align: center;
-    justify-content:center;
-    /* padding-right: 3vw; */
- }
-
- 
- .Appointment-services2{
-    display: flex;
-    flex-flow: row-reverse;
-    padding-left: 5vw;
- }
-
- .Appointment-right-button button {
-   font-size:max(1vw,1vh);
-   margin-top:max(2vw,2vh);
-   /* width:max(10vw,10vh) ; */
-   /* color:#1363DF; */
-    /* background-color: aqua; */
-    /* font-size: 1.5rem; */
-    /* border-radius: 25px; */
-    padding-top: 6px;
-    padding-left: 16px;
-    font-weight: bolder;
-   
- }
-
- .Appointment-right-moto{
+.Appointment-right-moto{
    font-size: 3rem;
-   color: #06283D;
- }
+}
 
- .Appointment-right-moto-desc{
-font-size:large;
-color: #06283D;
-line-height: 2rem;
- }
+.Appointment-right-moto-desc{
+   font-size: 1.2em;
+   text-align: left;
+   line-height: 1.5em;
+   margin-bottom: 70px;
+}
+/* 
+.Appointment-services{
+   padding: 0% 5%;
+} */
 
+.Appointment-services1,.Appointment-services2{
+   display: flex;
+}
 
-  @media only screen and (max-width: 600px) {
-    
-       .Appointment{
-        display: flex;
-        flex-flow: column;
-      }
-      .Appointment-top{
-         display: flex;
-         flex-flow: column;
-      }
-      .Appointment-left img{
-         width: 100vw;
-         padding-left: 0%;
-      }
-      .Appointment-left{
-         height: 45vh;
-      }
+.Appointment-services1 div img{
+   width: 60%;
+}
 
-      .Appointment-right{
-       width: 100vw;
-       height: 40vh;
-       font-size: 150%;
-      } 
-
-      .Appointment-right-button button{
-         
-         font-size: 4vw;
-         /* padding: 3vh; */
-         font-weight: bolder;
-     }
-
-    
-      /*
-      .Appointment-services2{
-        display: flex;
-        flex-flow: column;
-        text-align: center;
-     }
-
-     .Appointment-services1 img{
-        display: flex;
-        flex-flow: column;
-        width: 100%;
-         float: none;
-        
-     }
-     
-     .Appointment-services2 img{
-        display: flex;
-        flex-flow: column;
-        width: 100%;
-         float: none;
-       
-     }
+.Appointment-services1-2{
+   margin-top: 10%;
+   width: 75%;
+   font-size: 1.2em;
+}
 
 
-     .Appointment-left{
-        height: 50vh;
-     } 
-    
-*/
+.Appointment-services2 div img{
+   width: 60%;
+   float: right;
+}
 
-  } 
+.Appointment-services1-2{
+   margin-top: 10%;
+   width: 75%;
+   font-size: 1.2em;
+}
+
