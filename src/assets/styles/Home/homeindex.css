@@ -1,13 +1,18 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     font-family: -apple-system-body;
+       
 }
 .index-main{
     /* height: 200px; */
     margin: 10% 10% 0% 10%;
     /* background-color: black; */
-    /* display: flex; */
-    height: 100%;
+    /* width: 100vw; */
+    display: flex;
+}
+
+.index-description{
+    width: 100vw;
 }
 
 .index-circle{
@@ -16,29 +21,51 @@ body {
     border-radius: 50%;
 }
 
+.desc-main{
+    margin-top: 100px;
+}
+
 
 .desc-main h1 strong{
     color: #1363DF;
 }
+
+.desc-main h1{
+    color: black;
+    font-size: 2em;
+}
+
 .desc-main h3{
-    color: #1363DF;
+    /* color: #1363DF; */
+    font-size: 3em; 
 }
 
 .desc-sub{
     margin-top: 3%;
-    width: 40%;
+    width: 550px;
+    font-size: 1.3em;
+    line-height: 140%;
+}
+
+.index-buttons{
+    margin-top: 50px;
+}
+.index-buttons Button{
+    font-size: 1em;
 }
 
 .index-buttons Button:nth-child(2){
-   margin-left: 2%;
+   margin-left: 5%;
 }
 
 .index-image{
-    width: 7    0%;
+    width: 80%;
+    margin-top: 5%;
 }
 
 .index-image img{
-    max-width: 100%;
+    /* max-width: 100%; */
+    border-radius: 10%;
     /* min-width: 100%; */
  /* margin-top: 10%; */
 }
