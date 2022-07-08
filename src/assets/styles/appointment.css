@@ -3,7 +3,7 @@
 }
 .Appointment-top{
    display: flex;
-   height:80vh;
+   height:fit-content;
    position: static;
 }
 
@@ -38,27 +38,97 @@
 
 .Appointment-services1,.Appointment-services2{
    display: flex;
+   justify-content: space-between;  
 }
 
 .Appointment-services1 div img{
-   width: 60%;
+   width: 25vw;
 }
 
 .Appointment-services1-2{
    margin-top: 10%;
-   width: 75%;
+   width: 45%;
    font-size: 1.2em;
+   text-align: right;
 }
+
+.Appointment-services2-2{
+   margin-top: 10%;
+   width: 45%;
+   font-size: 1.2em;
+   text-align: left;
+}
+
 
 
 .Appointment-services2 div img{
-   width: 60%;
+   width: 25vw;
    float: right;
 }
 
-.Appointment-services1-2{
+/* .Appointment-services1-2
    margin-top: 10%;
    width: 75%;
    font-size: 1.2em;
+} */
+
+@media screen and (max-width:600px) {
+   
+   /* .Appointment{
+      display: flex;
+      flex-flow: column;
+   } */
+
+   /* .Appointment-services{
+      display: flex;
+      flex-flow: column;
+   } */
+
+   .Appointment-top{
+   flex-flow: column;
+   }
+   .Appointment-left img{
+      width: 80vw;
+   }
+      .Appointment-services1{
+         display: flex;
+         flex-flow: column;
+         /* text-align: center; */
+         justify-content: center;
+         width: 100vw;
+      }
+      .Appointment-services1 div img{
+      width:80vw;
+      }
+      .Appointment-services1-2{
+width: 80vw;
+text-align: left;
+      }
+
+      .Appointment-services2 div img{
+         width:80vw;
+          float: none; 
+          width:80vw;
+         }
+         .Appointment-services2{
+            display: flex;
+            flex-flow: column-reverse;
+         }
+
+         .Appointment-services2-2{
+   width: 80vw;
+         }
+         .Appointment-top{
+            height: fit-content;
+         }
+
 }
 
+@media screen and (max-width:950px) {
+.Appointment-services1-2{
+margin-top: 0%;
+}
+.Appointment-services2-2{
+   margin-top: 0%;
+}
+}

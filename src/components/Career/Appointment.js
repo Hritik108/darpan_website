@@ -51,9 +51,10 @@ class Appointment extends React.Component {
             </div>
           </div>
 
+          
           <div className="Appointment-services2">        
-           <div className="Appointment-services1-2">
-             <h1>Bhagvad Gita Classes For Youth</h1>
+           <div className="Appointment-services2-2">
+             <h1>Public Speaking Club</h1>
             <h4>One-to-one mentoring is the traditional model of
                mentoring in which a more senior individual is
                 paired with a more junior individual in order
@@ -64,6 +65,37 @@ class Appointment extends React.Component {
                   <img src={thinking} />
             </div>
           </div>
+
+          <div className="Appointment-services1">
+            <div>
+                  <img src={thinking} />
+            </div>
+
+           <div className="Appointment-services1-2">
+             <h1>Music CLasses</h1>
+            <h4>One-to-one mentoring is the traditional model of
+               mentoring in which a more senior individual is
+                paired with a more junior individual in order
+                 to provide the younger person with guidance,
+                  support, and encouragement </h4>
+            </div>
+          </div>
+
+          <div className="Appointment-services2">        
+           <div className="Appointment-services2-2">
+             <h1>Vedic Math</h1>
+            <h4>One-to-one mentoring is the traditional model of
+               mentoring in which a more senior individual is
+                paired with a more junior individual in order
+                 to provide the younger person with guidance,
+                  support, and encouragement </h4>
+            </div>
+            <div>
+                  <img src={thinking} />
+            </div>
+          </div>
+
+
         </div>
 
       </div>
