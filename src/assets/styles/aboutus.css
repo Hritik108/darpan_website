@@ -16,7 +16,7 @@
     color: #fff                           ;
   }
   .heading-main{
-    background-image: url('https://cdn.pixabay.com/photo/2012/08/27/14/19/mountains-55067_960_720.png');
+    /* background-image: url('https://cdn.pixabay.com/photo/2012/08/27/14/19/mountains-55067_960_720.png'); */
     filter: grayscale(100%);
     background-size:100% 300px;
     align-items: center;
@@ -179,7 +179,6 @@
 	position: absolute;
 	color: #fff;
 	background: #EFF9F8;
-  background-image: url("");
   background-position: center;
   background-repeat: no-repeat;
 	border-radius: 50%;

@@ -1,7 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 body {
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    font-family: -apple-system-body;
-       
+    /* font-family: 'Source Sans Pro', sans-serif; */
+     font-family: "Open Sans",Arial,sans-serif;  
 }
 .index-main{
     /* height: 200px; */
@@ -9,6 +9,8 @@ body {
     /* background-color: black; */
     /* width: 100vw; */
     display: flex;
+    /* font-family: -apple-system, BlinkMacSystemFont, sans-serif; */
+    font-family: "Bradley Hand", "cursive"
 }
 
 .index-description{

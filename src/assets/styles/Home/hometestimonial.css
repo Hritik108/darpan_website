@@ -2,28 +2,43 @@
 .carousel-item{
     margin: auto;
     width: 600px;
-    height: 250px;
-    border: 2px solid black;
-    border-radius: 20px;
+    height: 220px;
+    background-color: #f7f8fa;
+    border: 1px;
+    border-radius: 50px;
+    box-shadow: 5px 10px #A9A9A9;
+    margin-bottom:10%
 }
-
-.carousel-item div{
-    padding: 5% 5%;
+.carousel-item{
+    padding: 2% 3%;
     display: flex;
+    justify-content: space-around;
+    gap: 5vw;
 }
 
-.item-right{
-    width: 40%;
+.item-left{
+    margin: auto;
 }
+
 
 .item-left img{
-    width: 30%;
+    width: 100%;
     border: 2px solid black;
     border-radius: 50%;
 }
 
 .item-header h1{
+    font-size: 1.8em;
+    color: #1363DF;
+    margin-bottom: -5%;
+}
+
+.item-header h4{
+    border-bottom:2px solid rgb(145, 143, 143);
+    margin-right: 20px;
+    padding-bottom: 5px;
+}
+
+.item-right p{
     font-size: 1.2em;
-    color: #1F4690;
-    margin-bottom: -10px;
 }
