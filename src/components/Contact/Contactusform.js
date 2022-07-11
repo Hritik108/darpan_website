@@ -6,45 +6,48 @@ class Contactusform extends React.Component {
   render() {
     return (
       <div className="Contactusform">
-        <div>
-       <h1>Contact</h1>
-      </div>
-       <form>
+       
+       <form className="contactform">
       
-     
+       <div>
+       <h1>Get in Touch</h1>
+       <p>Please fill the form below to contact us</p>
+      </div>
 
-        <div className="Contactusform0">
-      <label>Enter your name:&nbsp;
-      &nbsp;&nbsp;
+        <div className="Contactusform0 contact-input">
+      {/* <label>Enter your name:&nbsp;
+      &nbsp;&nbsp; */}
         <input type="text"  placeholder="Your name.."/>
-      </label>
+      {/* </label> */}
       </div>
        
-       <div  className="Contactusform1">
-      <label>Phone Number:
+       <div  className="Contactusform1 contact-input">
+      {/* <label>Phone Number: */}
         <input type="tel"  placeholder="Your number.." pattern="[0-9]{3} [0-9]{3} [0-9]{4}" maxlength="10" />
-      </label>
+      {/* </label> */}
       </div>
 
 
-<div  className="Contactusform2">
-<label>Enter your Email:
-        <input type="email"  placeholder="email.."/>
-      </label>
+<div  className="Contactusform2 contact-input">
+{/* <label>Enter your Email: */}
+        <input className="contact-input" type="email"  placeholder="email.."/>
+      {/* </label> */}
 </div>
 
-<div className="Contactusform3">
-<label>Enter your Place:
+<div className="Contactusform3 contact-input">
+{/* <label>Enter your Place: */}
         <input type="text"  placeholder="Your place.."/>
-      </label>
+      {/* </label> */}
 </div>
 
-<div className="Contactusform4">
-<label>Comment:
+<div className="Contactusform4 contact-input">
+{/* <label>Comment:
         
-      </label>
+      </label> */}
       <input type="text"  placeholder="Any Comment"/>
 </div>
+
+<button className="contactus-button">Submit</button>
 
     </form>
 
