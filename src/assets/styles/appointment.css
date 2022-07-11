@@ -3,8 +3,8 @@
 }
 .Appointment-top{
    display: flex;
-   height:fit-content;
-   position: static;
+   height:80vh;
+   /* position: static; */
 }
 
 .Appointment-left{

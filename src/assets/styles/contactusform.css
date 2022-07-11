@@ -12,7 +12,7 @@
   margin-left: 20px;
 }
 .Contactusform{
-  background: #4CAF50;
+  background: #f7f8fa;
   padding-top: 7%;
   padding-bottom: 5%;
   color: #777;
@@ -33,7 +33,7 @@ input[type="email"]{  line-height: 3rem;
             background: #F9F9F9;
             display: flex;
             flex-flow: column;
-            width: 27vw;
+            width: 40vw;
             margin: auto;
             text-align: center;
             justify-content: center;
@@ -64,17 +64,15 @@ input[type="email"]{  line-height: 3rem;
 
 
 
-
+/* 
 .Contactusform0 input{
 
     display: flex;
     width:80%;
-    /* height: 32px; */
     background: #FFF;
     margin: auto;
     margin-top: 5%;
     margin-left: 9%;
-  /* text-align: center; */
   justify-content: center;
    
 }
@@ -83,11 +81,8 @@ input[type="email"]{  line-height: 3rem;
 
     display: flex;
     width:80%;
-    /* height: 32px; */
     background: #FFF;
     margin: auto;
-    /* margin-left: 11%; */
-  /* text-align: center; */
   justify-content: center;
    
 }
@@ -97,10 +92,8 @@ input[type="email"]{  line-height: 3rem;
   
     display: flex;
     width:80%;
-    /* height: 32px; */
     background: #FFF;
     margin: auto;
-  /* text-align: center; */
   justify-content: center;
   
 }
@@ -109,30 +102,26 @@ input[type="email"]{  line-height: 3rem;
   
     display: flex;
     width:80%;
-    /* height: 32px; */
     background: #FFF;
     margin: auto;
-  /* text-align: center; */
-  /* justify-content: center; */
+   justify-content: center;
 }
 
 .Contactusform4 input {
    display: flex;
     flex-flow: column;
     width:80%;
-    /* height: 32px; */
-    /* line-height: 3rem; */
     background: #FFF;
     margin: auto;
-  /* text-align: center; */
   justify-content: center;
 
-}
+} */
 
 .contact-input input{
-/* margin-top: 16px; */
 margin: auto;
-margin-bottom: 8%;
+width: 80%;
+margin-top: 5%;
+/* margin-bottom: 8%; */
 border: 1px solid #ccc;
 background: #FFF;
 order: 1px solid #aaa;
@@ -142,11 +131,26 @@ height: 25px;
 font-size: 14px;
 
 }
-
+.contact-input textarea{
+  margin: auto;
+width: 80%;
+margin-top: 5%;
+/* margin-bottom: 8%; */
+border: 1px solid #ccc;
+background: #FFF;
+order: 1px solid #aaa;
+padding: 10px;
+height: 25px;
+/* margin-left: 20px; */
+font-size: 14px;
+height: 75px;
+margin-bottom: 5% ;
+}
 
 .contactus-button{
   width:86%;
-  background: #4CAF50;
+  /* background: #4CAF50; */
+  background: #1363DF;
   margin: auto;
   /* margin-left: 20px; */
   margin-bottom: 5%;
