@@ -8,7 +8,7 @@ import D1 from "../../assets/images/D1.jpg";
 class Homeindex extends React.Component {
   render() {
     return (
-      <div className="index-main" style={{ height: window.innerHeight - 10 }}>
+      <div className="index-main">
         <div className="index-description">
           <div className="desc-main">
             {/* <h3>DARPAN WORLI</h3> */}

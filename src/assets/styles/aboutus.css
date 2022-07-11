@@ -49,17 +49,17 @@
 } 
 .timeline-main,
 .timeline-container > header {
-	width: 90%;
+	width: 50%;
 	max-width: 69em;
-	margin: 0 auto;
-	padding: 0 1.875em 3.125em 1.875em;
+	/* margin: 0 auto; */
+	padding: 0 1.875em 3.125em 4.5em;
 }
 
 /* The line */
 .cbp_tmtimeline:before {
 	content: '';
 	position: absolute;
-	top: 0;
+	top: 30px;
 	bottom: 0;
 	width: 6px;
 	background:#3BB0A0;
@@ -74,15 +74,17 @@
 
 .cbp_tmtimeline > li .cbp_tmtime {
 	display: block;
-	width: 15%;
+	width: 5%;
 	padding-right: 100px;
-  padding-top: 20px;
+  padding-top: 25px;
 	position: absolute;
+	/* padding-right: 50px; */
 }
 
 .cbp_tmtimeline > li .cbp_tmtime span {
 	display: block;
 	text-align: right;
+	padding-left:90px;
 }
 
 /* .cbp_tmtimeline > li .cbp_tmtime span:first-child {
@@ -93,7 +95,7 @@
 .cbp_tmtimeline > li .cbp_tmtime span:last-child {
   margin-top: 15px;
   font-weight: bold;
-	font-size: 2.5em;
+	font-size: 1.5em;
 	color: #007464;
 }
 
@@ -105,10 +107,10 @@
 
 /* Right content */
 .cbp_tmtimeline > li .cbp_tmlabel {
-	margin: 0 0 70px 50%;
+	margin: 0 0 30px 45%;
 	background:  #007464;
 	color: #fff;
-	padding: 2em;
+	padding: 1em;
 	font-size: 1.2em;
 	font-weight: 300;
 	line-height: 1.4;
@@ -126,16 +128,16 @@
 	border-bottom: 1px solid rgba(255,255,255,0.4);
 }
 .cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel p{
-  line-height: 30px;
+  line-height: 20px;
   color: #007464;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 16px;
 }
 .cbp_tmtimeline > li .cbp_tmlabel p{
-  line-height: 30px;
+  line-height: 20px;
   color:  #EFF9F8;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 16px;
 }
 /* The triangle */
 .cbp_tmtimeline > li .cbp_tmlabel:after {
@@ -146,7 +148,7 @@
 	width: 0;
 	position: absolute;
 	pointer-events: none;
-  margin-top: 45px;
+  margin-top: 40px;
 	border-right-color:  #007464;
 	border-width: 10px;
 	top: 10px;
@@ -157,10 +159,15 @@
 }
 
 /* The icons */
+
+#about-icon{
+	margin-top: 25px;
+}
 .cbp_tmtimeline > li .cbp_tmicon {
-	width: 100px;
-	height: 100px;
+	width: 50px;
+	height: 50px;
 	font-family: 'ecoico';
+	/* margin-top: 20px; */
 	/* speak: none; */
 	font-style: normal;
 	font-weight: normal;
@@ -178,7 +185,7 @@
 	/* box-shadow: 0 0 0 8px #afdcf8; */
   border: 6px solid #3BB0A0;
 	text-align: center;
-	left: 30%;
+	left: 31.5%;
 	top: 0;
 	margin: 0 0 0 -25px;
 }
