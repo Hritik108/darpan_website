@@ -16,7 +16,7 @@ class HomeTestimonial extends React.Component {
     };
     return (
       <Slider {...settings}>
-        <div>
+        <div className="testimonial">
           <div className="carousel-item">
             <div className="item-left">
               <img alt="person logo" src={person_logo} />

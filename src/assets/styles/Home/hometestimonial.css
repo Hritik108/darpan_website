@@ -1,4 +1,7 @@
-
+.testimonial{
+    height: 100vh;
+    
+}
 .carousel-item{
     margin: auto;
     width: 600px;
@@ -7,8 +10,9 @@
     border: 1px;
     border-radius: 50px;
     box-shadow: 5px 10px #A9A9A9;
-    margin-bottom:10%
+    margin-bottom:10%;
 }
+
 .carousel-item{
     padding: 2% 3%;
     display: flex;
