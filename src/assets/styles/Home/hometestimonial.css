@@ -46,3 +46,23 @@
 .item-right p{
     font-size: 1.2em;
 }
+/* 
+.slick-prev {
+    left: 13% !important;
+    color: #1363DF;
+    z-index: 1;
+  }
+  .slick-next {
+    right: 3% !important;
+    z-index: 1;
+  } */
+
+  .slides{
+      /* background-color: black; */
+  }
+
+  .slick-prev{
+      display: block;
+  }
+  .slick-prev { left: 3% !important; z-index: 1; } .slick-next { right: 3% !important; z-index: 1; }
+
