@@ -1,7 +1,22 @@
- h1{
-    color: #1363DF;
-    margin-bottom: 2vh;
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
 
+.contactform h1{
+    /* color: #1363DF; */
+    margin-bottom: 2vh;
+    text-align: left;
+    margin-left: 20px;
+
+}
+.contactform P{
+  text-align: left;
+  margin-left: 20px;
+}
+.Contactusform{
+  background: #4CAF50;
+  padding-top: 7%;
+  padding-bottom: 5%;
+  color: #777;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
 
 
@@ -15,17 +30,19 @@ input[type="email"]{  line-height: 3rem;
         font-size:larger }
 
         .contactform{
-            background-color: pink;
+            background: #F9F9F9;
             display: flex;
             flex-flow: column;
-            width: 25vw;
+            width: 27vw;
             margin: auto;
             text-align: center;
             justify-content: center;
             height: fit-content;
-            border-radius: 25px;
+            /* border-radius: 25px; */
             margin-bottom: 5%;
-        }
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+                   
+          }
 
 /* .contactus {
   margin: auto;
@@ -49,10 +66,10 @@ input[type="email"]{  line-height: 3rem;
 
 
 .Contactusform0 input{
-    color: aqua;
+
     display: flex;
     width:80%;
-    height: 32px;
+    /* height: 32px; */
     background: #FFF;
     margin: auto;
     margin-top: 5%;
@@ -63,10 +80,10 @@ input[type="email"]{  line-height: 3rem;
 }
 
 .Contactusform1 input{
-    color: aqua;
+
     display: flex;
     width:80%;
-    height: 32px;
+    /* height: 32px; */
     background: #FFF;
     margin: auto;
     /* margin-left: 11%; */
@@ -77,10 +94,10 @@ input[type="email"]{  line-height: 3rem;
 
 
 .Contactusform2 input{
-    color: aqua;
+  
     display: flex;
     width:80%;
-    height: 32px;
+    /* height: 32px; */
     background: #FFF;
     margin: auto;
   /* text-align: center; */
@@ -89,34 +106,62 @@ input[type="email"]{  line-height: 3rem;
 }
 
 .Contactusform3 input{
-    color: aqua;
+  
     display: flex;
     width:80%;
-    height: 32px;
+    /* height: 32px; */
     background: #FFF;
     margin: auto;
   /* text-align: center; */
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .Contactusform4 input {
-    display:flex;
+   display: flex;
     flex-flow: column;
     width:80%;
-    height: 32px;
-    line-height: 3rem;
+    /* height: 32px; */
+    /* line-height: 3rem; */
     background: #FFF;
     margin: auto;
-  text-align: center;
+  /* text-align: center; */
   justify-content: center;
 
 }
 
 .contact-input input{
 /* margin-top: 16px; */
+margin: auto;
+margin-bottom: 8%;
+border: 1px solid #ccc;
+background: #FFF;
+order: 1px solid #aaa;
+padding: 10px;
+height: 25px;
+/* margin-left: 20px; */
+font-size: 14px;
 
-margin-bottom: 15%;
-} 
+}
+
+
+.contactus-button{
+  width:86%;
+  background: #4CAF50;
+  margin: auto;
+  /* margin-left: 20px; */
+  margin-bottom: 5%;
+  line-height: 32px;
+  border: none;
+  height: 40px;
+  color: #FFF;
+}
+
+
+@media screen and (max-width:960px) {
+  .contactform{
+    width: max-content;
+  }
+}
 
 
 /* @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);

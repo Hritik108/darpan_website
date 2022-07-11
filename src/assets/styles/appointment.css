@@ -84,6 +84,7 @@
 }
 .Appointment-services-desc h1{
    border-bottom: 5px solid red;
+   display: inline;
 }
 
 /* .Appointment-services1-2
