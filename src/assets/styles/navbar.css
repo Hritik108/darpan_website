@@ -12,7 +12,7 @@ body {
   height: 80px;
   padding-top: 20px;
   position: fixed;
-  background-color: white;
+  background-color: transparent;
   top: 0;
   width: 80vw;
   border-width: 0 0px 3px 0;
@@ -41,7 +41,7 @@ body {
   position: relative;
   top: 50%;
   padding-left: 30px;
-  color: #1363DF;
+  color: black;
   font-weight: bolder;
   font-size: 1.2em;
 }
@@ -70,7 +70,7 @@ body {
 
 .hamburger{
   font-size: 2em;
-  color: blue;
+  color: black;
   /* background-color: white; */
   transition: .5;
   padding: 10px 15px;

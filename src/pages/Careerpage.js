@@ -6,6 +6,7 @@ class Career extends React.Component {
   render() {
     return (
       <div className="Career">
+        <Navbar />
         <Appointment />
       </div>
     );

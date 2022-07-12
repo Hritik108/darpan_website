@@ -28,13 +28,13 @@ class Homeindex extends React.Component {
           <div className="index-buttons">
             <Button
               variant="contained"
-              style={{ backgroundColor: "#06283D", position: "static" }}
+              style={{ backgroundColor: "black", position: "static" }}
             >
               KNOW MORE
             </Button>
             <Button
               variant="contained"
-              style={{ backgroundColor: "#06283D", position: "static" }}
+              style={{ backgroundColor: "black", position: "static" }}
             >
               ASK US ANYTHING
             </Button>

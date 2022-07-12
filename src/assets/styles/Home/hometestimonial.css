@@ -1,6 +1,5 @@
 .testimonial{
     height: 100vh;
-    
 }
 .carousel-item{
     margin: auto;
@@ -8,8 +7,8 @@
     height: 220px;
     background-color: #f7f8fa;
     border: 1px;
-    border-radius: 50px;
-    box-shadow: 5px 10px #A9A9A9;
+    border-radius: 20px;
+    box-shadow: 5px 5px #A9A9A9;
     margin-bottom:10%;
 }
 
@@ -46,23 +45,18 @@
 .item-right p{
     font-size: 1.2em;
 }
-/* 
+
+.slick-next , .slick-prev{
+    top: 20% !important;
+}
+
 .slick-prev {
-    left: 13% !important;
-    color: #1363DF;
+    left: 28% !important;
     z-index: 1;
+    background-color: black !important;
   }
   .slick-next {
-    right: 3% !important;
+    right: 28% !important;
     z-index: 1;
-  } */
-
-  .slides{
-      /* background-color: black; */
+    background-color: black !important;
   }
-
-  .slick-prev{
-      display: block;
-  }
-  .slick-prev { left: 3% !important; z-index: 1; } .slick-next { right: 3% !important; z-index: 1; }
-

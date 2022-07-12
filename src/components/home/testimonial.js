@@ -3,6 +3,8 @@ import Slider from "react-slick";
 import "../../assets/styles/Home/hometestimonial.css";
 // import person_logo from "../../assets/images/person_logo.jpeg";
 import person_logo from "../../assets/images/person.png";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 class HomeTestimonial extends React.Component {
   render() {
@@ -25,6 +27,14 @@ class HomeTestimonial extends React.Component {
       arrows: true,
       autoplaySpeed: 5000,
       className: "slides",
+      arrows: true,
+    };
+    var settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
     };
     return (
       <Slider {...settings}>

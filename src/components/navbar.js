@@ -1,6 +1,7 @@
 import React from "react";
 import "../assets/styles/navbar.css";
 import jQuery from "jquery";
+import Logo from "../assets/images/logo.png";
 
 class Navbar extends React.Component {
   constructor(props) {
@@ -58,6 +59,7 @@ class Navbar extends React.Component {
         width: "95%",
         border: "solid  #1363DF",
         borderWidth: "0px 0px 4px 0px",
+        backgroundColor: "white",
       });
     } else {
       jQuery(".navbar-main").css({
@@ -65,6 +67,7 @@ class Navbar extends React.Component {
         padding: "1% 10% 0% 10%",
         width: "80vw",
         border: "0px",
+        backgroundColor: "transparent",
       });
     }
   }
@@ -76,7 +79,9 @@ class Navbar extends React.Component {
         <div className="navbar">
           <div className="navbar-main">
             <div className="navbar-logo">
-              <h3>DARPAN WORLI</h3>
+              <a href="/">
+                <img src={Logo} />
+              </a>
             </div>
             <div className="navbar-right">
               <a href="/Home">
@@ -85,26 +90,26 @@ class Navbar extends React.Component {
                   className={`${this.state.active === "home" ? "circle" : ""}`}
                 ></div>
               </a>
-              <a href="/About">
-                About Us
-                <div
-                  className={`${this.state.active === "about" ? "circle" : ""}`}
-                ></div>
-              </a>
-              <a href="/Events">
+              {/* <a href="/Events">
                 Events
                 <div
                   className={`${
                     this.state.active === "events" ? "circle" : ""
                   }`}
                 ></div>
-              </a>
+              </a> */}
               <a href="/Career">
                 Career Counseling
                 <div
                   className={`${
                     this.state.active === "career" ? "circle" : ""
                   }`}
+                ></div>
+              </a>
+              <a href="/About">
+                About Us
+                <div
+                  className={`${this.state.active === "about" ? "circle" : ""}`}
                 ></div>
               </a>
               <a href="/Contact">
