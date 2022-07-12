@@ -1,14 +1,17 @@
-
+.testimonial{
+    height: 100vh;
+}
 .carousel-item{
     margin: auto;
     width: 600px;
     height: 220px;
     background-color: #f7f8fa;
     border: 1px;
-    border-radius: 50px;
-    box-shadow: 5px 10px #A9A9A9;
-    margin-bottom:10%
+    border-radius: 20px;
+    box-shadow: 5px 5px #A9A9A9;
+    margin-bottom:10%;
 }
+
 .carousel-item{
     padding: 2% 3%;
     display: flex;
@@ -42,3 +45,18 @@
 .item-right p{
     font-size: 1.2em;
 }
+
+.slick-next , .slick-prev{
+    top: 20% !important;
+}
+
+.slick-prev {
+    left: 28% !important;
+    z-index: 1;
+    background-color: black !important;
+  }
+  .slick-next {
+    right: 28% !important;
+    z-index: 1;
+    background-color: black !important;
+  }

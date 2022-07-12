@@ -44,7 +44,8 @@ class Contactusform extends React.Component {
 {/* <label>Comment:
         
       </label> */}
-      <input type="text"  placeholder="Any Comment"/>
+      <textarea  placeholder="Any Comment" rows="4" cols="50"></textarea>
+      {/* <input type="text area"  placeholder="Any Comment" rows="4" cols="50"/> */}
 </div>
 
 <button className="contactus-button">Submit</button>

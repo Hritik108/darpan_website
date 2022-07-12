@@ -3,8 +3,8 @@
 }
 .Appointment-top{
    display: flex;
-   height:fit-content;
-   position: static;
+   height:80vh;
+   /* position: static; */
 }
 
 .Appointment-left{
@@ -84,6 +84,7 @@
 }
 .Appointment-services-desc h1{
    border-bottom: 5px solid red;
+   display: inline;
 }
 
 /* .Appointment-services1-2

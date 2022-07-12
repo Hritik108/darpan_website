@@ -8,7 +8,7 @@ import D1 from "../../assets/images/D1.jpg";
 class Homeindex extends React.Component {
   render() {
     return (
-      <div className="index-main" style={{ height: window.innerHeight - 10 }}>
+      <div className="index-main">
         <div className="index-description">
           <div className="desc-main">
             {/* <h3>DARPAN WORLI</h3> */}
@@ -28,13 +28,13 @@ class Homeindex extends React.Component {
           <div className="index-buttons">
             <Button
               variant="contained"
-              style={{ backgroundColor: "#06283D", position: "static" }}
+              style={{ backgroundColor: "black", position: "static" }}
             >
               KNOW MORE
             </Button>
             <Button
               variant="contained"
-              style={{ backgroundColor: "#06283D", position: "static" }}
+              style={{ backgroundColor: "black", position: "static" }}
             >
               ASK US ANYTHING
             </Button>
