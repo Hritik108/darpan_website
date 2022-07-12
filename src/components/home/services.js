@@ -1,6 +1,10 @@
 import React from "react";
 import "../../assets/styles/appointment.css";
 import thinking from "../../assets/images/thinking.png";
+import music from "../../assets/images/music.png"
+import speak from "../../assets/images/speak.png"
+import math from "../../assets/images/math.png"
+
 import monk from "../../assets/images/monk.jfif";
 import { Button } from "@mui/material";
 
@@ -35,13 +39,13 @@ class Services extends React.Component {
             </h4>
           </div>
           <div className="Appointment-image">
-            <img src={thinking} />
+            <img src={speak} />
           </div>
         </div>
 
         <div className="Appointment-services1">
           <div className="Appointment-image">
-            <img src={thinking} />
+            <img src={music} />
           </div>
 
           <div className="Appointment-services1-2 Appointment-services-desc">
@@ -66,7 +70,7 @@ class Services extends React.Component {
             </h4>
           </div>
           <div className="Appointment-image">
-            <img src={thinking} />
+            <img src={math} />
           </div>
         </div>
       </div>

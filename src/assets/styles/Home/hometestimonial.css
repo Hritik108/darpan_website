@@ -34,16 +34,19 @@
     font-size: 1.8em;
     color: #1363DF;
     margin-bottom: -5%;
+    /* font-size: max(1.6vw,1.6vh); */
 }
 
 .item-header h4{
     border-bottom:2px solid rgb(145, 143, 143);
     margin-right: 20px;
     padding-bottom: 5px;
+    /* font-size: max(1.3vw,1.3vh); */
 }
 
 .item-right p{
     font-size: 1.2em;
+    /* font-size: max(1.2vw,1.2vh); */
 }
 
 .slick-next , .slick-prev{
@@ -59,4 +62,41 @@
     right: 28% !important;
     z-index: 1;
     background-color: black !important;
+  }
+
+  @media only screen and (max-width: 700px) {
+   /* .item-right p{
+    font-size: 1.2em;
+   } */
+   /* .item-header h1{
+    font-size: 2em;
+   } */
+   /* ..carousel-item{
+
+   } */
+
+   .carousel-item{
+    display: flex;
+    flex-flow: column;
+    height: fit-content;
+    width: 60vw;
+    padding-top: 5%;
+   }
+
+   .item-left img{
+    width:65%;
+    margin: auto;
+   }
+
+    .item-right {
+padding-left: 4%;
+line-height: 1.8rem;
+   } 
+
+   .item-right h1{
+    font-size: 1.5rem;
+   }
+
+   
+
   }

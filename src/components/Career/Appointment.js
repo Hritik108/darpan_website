@@ -1,6 +1,7 @@
 import React from "react";
 import "../../assets/styles/appointment.css";
 import thinking from "../../assets/images/thinking.png";
+import music from "../../assets/images/music.png"
 import monk from "../../assets/images/monk.jfif";
 import { Button } from "@mui/material";
 class Appointment extends React.Component {
@@ -39,7 +40,7 @@ class Appointment extends React.Component {
         <div className="Appointment-services">
           <div className="Appointment-services1">
             <div className="Appointment-image">
-                  <img src={monk} />
+                  <img src={music} />
             </div>
 
            <div className="Appointment-services1-2 Appointment-services-desc">

@@ -55,7 +55,7 @@
 
 .Appointment-services2-2{
    margin-top: 10%;
-   width: 45%;
+   width: 42vw;
    font-size: 1.2em;
    text-align: left;
    
@@ -69,7 +69,7 @@
   
 }
 .Appointment-image{
-   margin-top: 9vw;
+   margin-top: 8vw;
    /* width: 30vw; */
    justify-content: center;
    text-align: center;
@@ -121,6 +121,9 @@
       .Appointment-services1 div img{
       width:80vw;
       border-radius: 50%;
+      /* border-style: double; */
+      border-color: aqua;
+      
       }
       .Appointment-services1-2{
 width: 80vw;
@@ -128,7 +131,6 @@ text-align: left;
       }
 
       .Appointment-services2 div img{
-         width:80vw;
           float: none; 
           width:80vw;
           border-radius: 50%;
