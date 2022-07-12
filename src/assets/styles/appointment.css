@@ -78,7 +78,7 @@
    /* border-style: solid; */
    background-color:#f7f8fa;
    /* box-shadow: 12px 12px #c2c1c1; */
-   border-radius: 30px;
+   /* border-radius: 30px; */
     border: 10px solid hsla(0,0%,100%,.5);
    
 }
@@ -116,13 +116,13 @@
          flex-flow: column;
          /* text-align: center; */
          justify-content: center;
-         width: 100vw;
+         width: 80vw;
       }
       .Appointment-services1 div img{
       width:80vw;
-      border-radius: 50%;
+      /* border-radius: 50%; */
       /* border-style: double; */
-      border-color: aqua;
+      /* border-color: aqua; */
       
       }
       .Appointment-services1-2{
@@ -133,9 +133,9 @@ text-align: left;
       .Appointment-services2 div img{
           float: none; 
           width:80vw;
-          border-radius: 50%;
+          /* border-radius: 50%;
           border-style: double;
-          border-color: aqua;
+          border-color: aqua; */
          }
          .Appointment-services2{
             display: flex;
