@@ -1,5 +1,6 @@
 import React from "react";
 import "../assets/styles/aboutus.css";
+// import aboutus from "../assets/images/aboutus.jpg";
 
 class AboutUs extends React.Component {
   render() {
@@ -12,7 +13,7 @@ class AboutUs extends React.Component {
            <div className="heading-main">
                 <div className="heading-text">
                     <h1>Our Story</h1>
-                    <p>Our story is one of a true example of one person’s visions formed by thousands hands together!It is a journey of a century in service to the society, Mother Earth and our Lord.</p>
+                    {/* <p>Our story is one of a true example of one person’s visions formed by thousands hands together!It is a journey of a century in service to the society, Mother Earth and our Lord.</p> */}
                 </div>
                
             </div>

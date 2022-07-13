@@ -1,3 +1,5 @@
+/* @import aboutus from "../images/aboutus.jpg"; */
+
 .about-home {
     width: 100%;
     overflow-x: hidden;
@@ -16,7 +18,7 @@
     color: #fff                           ;
   }
   .heading-main{
-    background-image: url('https://cdn.pixabay.com/photo/2012/08/27/14/19/mountains-55067_960_720.png');
+    background-image: url('../images/aboutus.jpg');
     /* filter: grayscale(100%); */
     background-size:100% 300px;
     align-items: center;
