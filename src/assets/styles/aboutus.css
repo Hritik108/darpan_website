@@ -19,6 +19,7 @@
   }
   .heading-main{
     background-image: url('../images/aboutus.jpg');
+	/* background-image: url('https://images.pexels.com/photos/1782275/pexels-photo-1782275.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
     /* filter: grayscale(100%); */
     background-size:100% 300px;
     align-items: center;
@@ -40,8 +41,13 @@
 .about-content{
     margin-left: 5%;
     margin-right: 5%;
+	margin-top: 40px;
 }
-
+.timeline-container{
+	margin-top: 100px;
+	/* display: flex; */
+	width: 100%; 
+}
 .cbp_tmtimeline {
 	margin: 30px 0 0 0;
 	padding: 0;
@@ -51,12 +57,21 @@
 } 
 .timeline-main,
 .timeline-container > header {
-	width: 50%;
-	max-width: 69em;
+	/* width: %; */
+	display: flex;
+	/* max-width: 69em; */
 	/* margin: 0 auto; */
 	padding: 0 1.875em 3.125em 4.5em;
 }
-
+.cbp_tmtimeline{
+	width: 50%;
+}
+.aboutus-descp{
+	width: 50%;
+	margin-right: 35px;
+	padding: 20px 20px 20px 50px;
+	text-align: center;
+}
 /* The line */
 .cbp_tmtimeline:before {
 	content: '';
@@ -64,6 +79,7 @@
 	top: 30px;
 	bottom: 0;
 	width: 6px;
+	height: 500px;
 	background:#3BB0A0;
 	left: 33.5%;
 	margin-left: -10px;
@@ -86,7 +102,7 @@
 .cbp_tmtimeline > li .cbp_tmtime span {
 	display: block;
 	text-align: right;
-	padding-left:90px;
+	padding-left:70px;
 }
 
 /* .cbp_tmtimeline > li .cbp_tmtime span:first-child {
@@ -109,7 +125,7 @@
 
 /* Right content */
 .cbp_tmtimeline > li .cbp_tmlabel {
-	margin: 0 0 30px 45%;
+	margin: 0 0 30px 47%;
 	background:  #007464;
 	color: #fff;
 	padding: 1em;
@@ -163,7 +179,7 @@
 /* The icons */
 
 #about-icon{
-	margin-top: 25px;
+	margin-top: 20px;
 }
 .cbp_tmtimeline > li .cbp_tmicon {
 	width: 60px;
@@ -233,8 +249,27 @@
     left: 35%;
   }
 }
+@media screen and (max-width: 1230px){
+	.cbp_tmtimeline > li .cbp_tmtime span{
+		padding-left: 50px;
+	}
+	.cbp_tmtimeline:before {
+		height: 600px;
+	}
 
-@media screen and (max-width: 47.2em) {
+}
+@media screen and (max-width: 1100px){
+	.cbp_tmtimeline > li .cbp_tmtime span{
+		padding-left: 30px;
+
+	}
+	.cbp_tmtimeline:before{
+		left: 35%;
+	}
+
+}
+
+@media screen and (max-width: 920px) {
 	.cbp_tmtimeline:before {
 		display: none;
 	}
@@ -247,6 +282,7 @@
 
 	.cbp_tmtimeline > li .cbp_tmtime span {
 		text-align: left;
+		padding-left: 20px;
 	}
 
 	.cbp_tmtimeline > li .cbp_tmlabel {
@@ -283,4 +319,21 @@
 	#about-icon{
 		margin-top: -55px;
 	}
+	.timeline-main{
+		display: block;
+		padding-left: 2em;
+	}
+	.cbp_tmtimeline{
+		width: 100%;
+	}
+	.aboutus-descp{
+		width: 100%;
+		padding: 0px;
+	}
+}
+
+@media screen and (max-width: 1290px){
+	/* .cbp_tmtimeline:before{
+		left: 34.2%;
+	} */
 }
