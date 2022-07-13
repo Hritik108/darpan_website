@@ -38,11 +38,15 @@ function Contactusform() {
 
   return (
     <div className="Contactusform">
-      <form className="contactform" onSubmit={onSubmit}>
-        <div>
+        <div className="contactdesc">
           <h1>Get in Touch</h1>
-          <p>Please fill the form below to contact us</p>
+          <p>Please fill the form below to contact us<br/>
+          Please fill the form below to contact us<br/>
+          Please fill the form below to contact us<br/>
+          Please fill the form below to contact us<br/>
+          </p>
         </div>
+      <form className="contactform" onSubmit={onSubmit}>
 
         <div className="Contactusform0 contact-input">
           <input id="name" type="text" placeholder="Your name.." />
