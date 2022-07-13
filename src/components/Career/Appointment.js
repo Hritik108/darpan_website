@@ -1,7 +1,7 @@
 import React from "react";
 import "../../assets/styles/appointment.css";
-import thinking from "../../assets/images/counsell.jgp";
-// import counsell from "../../assets/images/counsell.jgp";
+import thinking from "../../assets/images/thinking.png";
+// import counsell from "../../assets/images/thinking.png";
 import music from "../../assets/images/music.png"
 // import monk from "../../assets/images/monk.jfif";
 import { Button } from "@mui/material";
