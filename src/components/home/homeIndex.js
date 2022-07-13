@@ -1,9 +1,8 @@
 import React from "react";
-import "../../assets/styles/Home/homeindex.css";
 import { Button } from "@mui/material";
-import jQuery from "jquery";
-import Mountain from "../../assets/images/Mountain.jpeg";
-import D1 from "../../assets/images/D1.jpg";
+
+//css
+import "../../assets/styles/Home/homeindex.css";
 
 class Homeindex extends React.Component {
   render() {
@@ -22,7 +21,7 @@ class Homeindex extends React.Component {
               Darpan is a youth club empowered by its members with enthusuiasm
               to contribute towards the academic, personal, social &amp;
               cultural development of individuals by inclucating the right
-              education & guidance
+              education &amp; guidance
             </p>
           </div>
           <div className="index-buttons">
@@ -40,9 +39,6 @@ class Homeindex extends React.Component {
             </Button>
           </div>
         </div>
-        {/* <div className="index-image">
-          <img src={D1} />
-        </div> */}
       </div>
     );
   }
