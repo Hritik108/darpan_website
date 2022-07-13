@@ -40,9 +40,9 @@ class Homeindex extends React.Component {
             </Button>
           </div>
         </div>
-        <div className="index-image">
+        {/* <div className="index-image">
           <img src={D1} />
-        </div>
+        </div> */}
       </div>
     );
   }

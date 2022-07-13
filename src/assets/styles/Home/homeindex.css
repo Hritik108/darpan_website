@@ -3,12 +3,12 @@ body {
     /* font-family: 'Source Sans Pro', sans-serif; */
      font-family: "Open Sans",Arial,sans-serif;  
 }
-/* .Home-page{
+.Home-page{
     background-image: url("../../images/main6.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
      height: 100vh;
-} */
+}
 .index-main{
     padding: 10% 10% 0% 10%;
     display: flex;
@@ -16,7 +16,7 @@ body {
 }
 
 .index-description{
-    width: 100vw;
+    width: 100vw;    
 }
 
 .index-circle{
@@ -74,4 +74,11 @@ body {
     border-radius: 10%;
     /* min-width: 100%; */
  /* margin-top: 10%; */
+}
+
+@media only screen and (max-width:700px){
+
+.index-description{
+    width: 100%;    
+}
 }
