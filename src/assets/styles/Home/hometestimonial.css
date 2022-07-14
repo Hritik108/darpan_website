@@ -9,7 +9,7 @@
     border: 1px;
     border-radius: 20px;
     box-shadow: 5px 5px #A9A9A9;
-    margin-bottom:10%;
+    margin-top:30vh;
 }
 
 .carousel-item{
@@ -80,7 +80,7 @@
     flex-flow: column;
     height: fit-content;
     width: 60vw;
-    padding-top: 5%;
+    /* padding-top: 5%; */
    }
 
    .item-left img{
