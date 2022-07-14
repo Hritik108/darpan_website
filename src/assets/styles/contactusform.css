@@ -98,6 +98,9 @@ margin-bottom: 5% ;
   color: #FFF;
 }
 
+.contactus-button:hover {
+  background-color: gray;
+}
 
 @media screen and (max-width:960px) {
   .contactform{

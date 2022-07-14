@@ -95,16 +95,15 @@
 
 @media screen and (max-width:600px) {
    
-   /* .Appointment{
-      display: flex;
-      flex-flow: column;
-   } */
-
-   /* .Appointment-services{
-      display: flex;
-      flex-flow: column;
-   } */
-
+  .Appointment-services-desc h4{
+   text-align: justify;
+  }
+  .Appointment-right{
+   padding-left: 0%;
+  }
+.Appointment-right-moto-desc{
+   text-align: justify;
+}
    .Appointment-top{
    flex-flow: column;
    }
@@ -120,9 +119,6 @@
       }
       .Appointment-services1 div img{
       width:80vw;
-      /* border-radius: 50%; */
-      /* border-style: double; */
-      /* border-color: aqua; */
       
       }
       .Appointment-services1-2{

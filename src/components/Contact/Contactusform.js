@@ -49,7 +49,7 @@ function Contactusform() {
       <form className="contactform" onSubmit={onSubmit}>
 
         <div className="Contactusform0 contact-input">
-          <input id="name" type="text" placeholder="Your name.." />
+          <input id="name" type="text" placeholder="Your name.." required />
         </div>
 
         <div className="Contactusform1 contact-input">
@@ -58,6 +58,7 @@ function Contactusform() {
             type="tel"
             placeholder="Your number.."
             maxlength="10"
+            required
           />
         </div>
 
@@ -67,10 +68,11 @@ function Contactusform() {
             id="email"
             type="email"
             placeholder="email.."
+            required
           />
         </div>
         <div className="Contactusform3 contact-input">
-          <input type="text" id="address" placeholder="Your place.." />
+          <input type="text" id="address" placeholder="Your place.." required/>
         </div>
         <div className="Contactusform4 contact-input">
           <textarea
