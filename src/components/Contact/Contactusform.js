@@ -2,6 +2,11 @@ import React from "react";
 import "../../assets/styles/contactusform.css";
 import $ from "jquery";
 
+//ICONS
+import InstagramIcon from "@mui/icons-material/Instagram";
+import YouTubeIcon from "@mui/icons-material/YouTube";
+import FacebookIcon from "@mui/icons-material/Facebook";
+
 function Contactusform() {
   async function load_messages() {
     let name = $("#name").val();
@@ -38,16 +43,46 @@ function Contactusform() {
 
   return (
     <div className="Contactusform">
-        <div className="contactdesc">
-          <h1>Get in Touch</h1>
-          <p>Please fill the form below to contact us<br/>
-          Please fill the form below to contact us<br/>
-          Please fill the form below to contact us<br/>
-          Please fill the form below to contact us<br/>
-          </p>
-        </div>
-      <form className="contactform" onSubmit={onSubmit}>
+      <div className="contactdesc">
+        <h1>Contact Details!</h1>
+        <h3>Address:</h3>
+        <address>
+          Gauranga Little Rays Nursery, Shop No. 3 Shree Laxmi Co. Op.HSG
+          Society Ltd. Mavji Laxmi Nalwala Chawl,S.S. Amruthwar Marg, Worli,
+          Mumbai. 400013
+        </address>
+        <h3>Contact Number:</h3>
+        <address>+91 7506229401</address>
 
+        <h3>Email:</h3>
+        <address>sallagargivikhil123@gmail.com</address>
+        <h3>Our Socia Media:</h3>
+        <div className="social-media">
+          <a href="">
+            <InstagramIcon
+              className="icons"
+              sx={{ fontSize: 30 }}
+              color="primary"
+            />
+          </a>
+          <a href="">
+            <YouTubeIcon
+              className="icons"
+              sx={{ fontSize: 30 }}
+              color="primary"
+            />
+          </a>
+          <a href="">
+            <FacebookIcon
+              className="icons"
+              sx={{ fontSize: 30 }}
+              color="primary"
+            />
+          </a>
+        </div>
+      </div>
+      <form className="contactform" onSubmit={onSubmit}>
+        <h1 id="form-heading">Get in Touch</h1>
         <div className="Contactusform0 contact-input">
           <input id="name" type="text" placeholder="Your name.." required />
         </div>
@@ -72,7 +107,7 @@ function Contactusform() {
           />
         </div>
         <div className="Contactusform3 contact-input">
-          <input type="text" id="address" placeholder="Your place.." required/>
+          <input type="text" id="address" placeholder="Your place.." required />
         </div>
         <div className="Contactusform4 contact-input">
           <textarea

@@ -1,11 +1,10 @@
 .Appointment{
-   padding: 0% 10%;
+   padding: 5% 10% 0% 10%;
 }
 
 .Appointment-top{
    display: flex;
-   height:80vh;
-   /* position: static; */
+   height:90vh;
 }
 
 .Appointment-left{
@@ -28,9 +27,9 @@
 
 .Appointment-right-moto-desc{
    font-size: 1.2em;
-   text-align: left;
+   text-align: justify;
    line-height: 1.5em;
-   margin-bottom: 70px;
+   /* margin-bottom: 70px; */
 }
 /* 
 .Appointment-services{
@@ -40,7 +39,8 @@
 .Appointment-services1,.Appointment-services2{
    display: flex;
    justify-content: space-between; 
-   margin-bottom: 9vw; 
+   /* margin-bottom: 9vw;  */
+   height: 90vh;
 }
 
 .Appointment-services1 div img{
@@ -81,7 +81,7 @@
 
    /* border-radius: 50%; */
    /* border-style: solid; */
-   background-color:#f7f8fa;
+   /* background-color:#f7f8fa; */
    /* box-shadow: 12px 12px #c2c1c1; */
    /* border-radius: 30px; */
     border: 10px solid hsla(0,0%,100%,.5);
@@ -91,7 +91,7 @@
    margin-top: 0%;
 }
 .Appointment-services-desc h1{
-   border-bottom: 5px solid red;
+   border-bottom: 5px solid #ff4d4d;
    display: inline;
 }
 
