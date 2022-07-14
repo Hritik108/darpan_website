@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
-
 .contactform h1{
     /* color: #1363DF; */
     margin-bottom: 2vh;
@@ -24,7 +23,7 @@
 
 address{
   margin-top: -20px;
-  font-size: 20px;
+  font-size: 100%;
   text-align: justify;
 }
 
@@ -110,6 +109,7 @@ margin-bottom: 5% ;
   border: none;
   height: 40px;
   color: #FFF;
+  font-size: 1em;
 }
 
 .contactus-button:hover {
