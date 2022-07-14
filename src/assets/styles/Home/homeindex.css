@@ -7,7 +7,7 @@ body {
     background-image: url("../../images/main6.jpg");
     background-repeat:no-repeat;
     background-size:cover;
-    /* background-position:center center; */
+    background-position:right;
     background-attachment: fixed;
 }
 .index-main{
@@ -19,12 +19,6 @@ body {
 .index-description{    
     width: 90%;
 }
-
-
-.desc-main{
-    margin-top: 100px;
-}
-
 
 .desc-main h1 strong{
     color: #1363DF;
@@ -46,6 +40,8 @@ body {
     width: 50vw;
     font-size: 1.3em;
     line-height: 140%;
+    color: white;
+    text-align: justify;
 }
 
 .index-buttons{
@@ -76,4 +72,12 @@ body {
     .desc-sub{
         width: 80vw;
     }
+}
+
+@media only screen and (max-width:450px){
+    .index-buttons 
+    Button:nth-child(2){
+        margin-left: 0.2%;
+        margin-top: 20px;
+    } 
 }
