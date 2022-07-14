@@ -118,7 +118,7 @@
          width: 80vw;
       }
       .Appointment-services1 div img{
-      width:80vw;
+      width:100%;
       
       }
       .Appointment-services1-2{
@@ -128,7 +128,7 @@ text-align: left;
 
       .Appointment-services2 div img{
           float: none; 
-          width:80vw;
+          width:100%;
           /* border-radius: 50%;
           border-style: double;
           border-color: aqua; */
