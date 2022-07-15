@@ -213,7 +213,11 @@
 /* .cbp_tmicon-phone:before {
 	content: "\e000";
 } */
-
+.about-img{
+	padding-top:5px ;
+	height: 40px;
+	width: 40px;
+}
 .cbp_tmicon-screen:before {
 	content: "\e001";
 }

@@ -29,13 +29,13 @@ class Homeindex extends React.Component {
               variant="contained"
               style={{ backgroundColor: "black", position: "static" }}
             >
-              KNOW MORE
+              Know More
             </Button>
             <Button
               variant="contained"
               style={{ backgroundColor: "black", position: "static" }}
             >
-              ASK US ANYTHING
+              Ask Us Anything
             </Button>
           </div>
         </div>

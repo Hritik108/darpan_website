@@ -7,7 +7,7 @@ body {
     background-image: url("../../images/main6.jpg");
     background-repeat:no-repeat;
     background-size:cover;
-    background-position:right;
+    background-position:left;
     background-attachment: fixed;
 }
 .index-main{
@@ -51,7 +51,7 @@ body {
     font-size: 1em;
 }
 
-.index-buttons Button:nth-child(2){
+.index-buttons a:nth-child(2){
    margin-left: 5%;
 }
 
