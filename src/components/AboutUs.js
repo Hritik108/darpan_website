@@ -1,6 +1,9 @@
 import React from "react";
 import "../assets/styles/aboutus.css";
 import growth from "../assets/images/diagram.png";
+import calendar from "../assets/images/calendar.png";
+import outreach from "../assets/images/expansion.png";
+import network from "../assets/images/network.png";
 
 class AboutUs extends React.Component {
   render() {
@@ -25,13 +28,12 @@ class AboutUs extends React.Component {
                   <span>2016</span>
                 </time>
                 <div className="cbp_tmicon cbp_tmicon-phone" id="about-icon">
-                  <img className="about-img" src={growth} />
+                  <img className="about-img" src={calendar} />
                 </div>
                 <div className="cbp_tmlabel">
                   {/* <h2>Ricebean black-eyed pea</h2> */}
                   <p>
-                    Me. Jagbir Singh Dhull and Mr. Jasbir Singh Deswal
-                    established Skylark Hatcheries
+                    Inception
                   </p>
                 </div>
               </li>
@@ -39,15 +41,13 @@ class AboutUs extends React.Component {
                 <time className="cbp_tmtime">
                   <span>2018</span>
                 </time>
-                <div
-                  className="cbp_tmicon cbp_tmicon-phone"
-                  id="about-icon"
-                ></div>
+                <div className="cbp_tmicon cbp_tmicon-phone" id="about-icon">
+					<img className="about-img" src={growth} />
+				</div>
                 <div className="cbp_tmlabel">
                   {/* <h2>Greens radish arugula</h2> */}
                   <p>
-                    Skylark research and breeding farm established at village
-                    Urlana Kalan, Haryana
+                    Growth
                   </p>
                 </div>
               </li>
@@ -57,13 +57,13 @@ class AboutUs extends React.Component {
                 </time>
                 <div
                   className="cbp_tmicon cbp_tmicon-phone"
-                  id="about-icon"
-                ></div>
+                  id="about-icon">
+					<img className="about-img" src={outreach} />
+				</div>
                 <div className="cbp_tmlabel">
                   {/* <h2>Sprout garlic kohlrabi</h2> */}
                   <p>
-                    Himgiri Hatcheries was set up in a village in Himachal
-                    Pradesh
+                    Outreach
                   </p>
                 </div>
               </li>
@@ -74,12 +74,13 @@ class AboutUs extends React.Component {
                 <div
                   className="cbp_tmicon cbp_tmicon-phone"
                   id="about-icon"
-                ></div>
+                >
+					<img className="about-img" src={network} />
+				</div>
                 <div className="cbp_tmlabel">
                   {/* <h2>Watercress ricebean</h2> */}
                   <p>
-                    Breeder capacity increased to 2,00,000. Skylark breeding
-                    farm renamed
+                    Expansion
                   </p>
                 </div>
               </li>
