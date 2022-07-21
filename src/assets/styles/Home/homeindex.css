@@ -47,8 +47,8 @@ body {
 .index-buttons{
     margin-top: 50px;
 }
-.index-buttons Button{
-    font-size: 1em;
+.index-buttons a{
+    text-decoration: none;
 }
 
 .index-buttons a:nth-child(2){

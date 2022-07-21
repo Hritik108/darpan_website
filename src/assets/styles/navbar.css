@@ -17,6 +17,7 @@ body {
   width: 80vw;
   border-width: 0 0px 3px 0;
   transition: 1s;
+  z-index: 999;
 }
 
 .navbar-logo img{

@@ -25,18 +25,22 @@ class Homeindex extends React.Component {
             </p>
           </div>
           <div className="index-buttons">
-            <Button
-              variant="contained"
-              style={{ backgroundColor: "black", position: "static" }}
-            >
-              Know More
-            </Button>
-            <Button
-              variant="contained"
-              style={{ backgroundColor: "black", position: "static" }}
-            >
-              Ask Us Anything
-            </Button>
+            <a href="/About">
+              <Button
+                variant="contained"
+                style={{ backgroundColor: "black", position: "static" }}
+              >
+                Know More
+              </Button>
+            </a>
+            <a href="/Contact">
+              <Button
+                variant="contained"
+                style={{ backgroundColor: "black", position: "static" }}
+              >
+                Ask Us Anything
+              </Button>
+            </a>
           </div>
         </div>
       </div>
