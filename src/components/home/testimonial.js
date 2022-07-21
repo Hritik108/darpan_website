@@ -119,7 +119,7 @@ function HomeTestimonial(props) {
   ];
 
   return (
-    <Carousel>
+    <Carousel position="static">
       {items.map((item, i) => (
         <Item key={i} item={item} />
       ))}
