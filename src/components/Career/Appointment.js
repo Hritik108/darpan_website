@@ -2,7 +2,11 @@ import React from "react";
 import "../../assets/styles/appointment.css";
 import thinking from "../../assets/images/thinking.png";
 // import counsell from "../../assets/images/thinking.png";
-import music from "../../assets/images/music.png";
+import guidance from "../../assets/images/guidance.png";
+import mentoring from "../../assets/images/mentoring.png";
+import EQ from "../../assets/images/EQ.png";
+import IQ from "../../assets/images/IQ.png";
+
 // import monk from "../../assets/images/monk.jfif";
 import { Button } from "@mui/material";
 class Appointment extends React.Component {
@@ -43,7 +47,7 @@ class Appointment extends React.Component {
         <div className="Appointment-services">
           <div className="Appointment-services1">
             <div className="Appointment-image">
-              <img alt="desc" src={music} />
+              <img alt="desc" src={guidance} />
             </div>
 
             <div className="Appointment-services1-2 Appointment-services-desc">
@@ -68,13 +72,13 @@ class Appointment extends React.Component {
               </h4>
             </div>
             <div className="Appointment-image">
-              <img alt="desc" src={thinking} />
+              <img alt="desc" src={mentoring} />
             </div>
           </div>
 
           <div className="Appointment-services1">
             <div className="Appointment-image">
-              <img alt="desc" src={thinking} />
+              <img alt="desc" src={EQ} />
             </div>
 
             <div className="Appointment-services1-2 Appointment-services-desc">
@@ -99,7 +103,7 @@ class Appointment extends React.Component {
               </h4>
             </div>
             <div className="Appointment-image">
-              <img alt="desc" src={thinking} />
+              <img alt="desc" src={IQ} />
             </div>
           </div>
         </div>
