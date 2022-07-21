@@ -24,8 +24,6 @@ class HomeTestimonial extends React.Component {
       autoplaySpeed: 5000,
       className: "slides",
       arrows: true,
-      nextArrow: <SamplePrevArrow />,
-      prevArrow: <SamplePrevArrow />,
     };
     return (
       <Slider {...settings}>

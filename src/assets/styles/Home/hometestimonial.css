@@ -56,42 +56,26 @@
 }
 
 .slick-next , .slick-prev{
-    top: 20% !important;
+    top: 47% !important;
 }
 
 .slick-prev {
-    left: 28% !important;
+    left: 15% !important;
     z-index: 1;
     background-color: black !important;
   }
   .slick-next {
-    right: 28% !important;
+    right: 15% !important;
     z-index: 1;
     background-color: black !important;
   }
 
-  /* #fullCarousel{
-position: absolute;
-width: 100%;
-top: 0;
-  } */
-
   @media only screen and (max-width: 700px) {
-   /* .item-right p{
-    font-size: 1.2em;
-   } */
-   /* .item-header h1{
-    font-size: 2em;
-   } */
-   /* ..carousel-item{
-
-   } */
-
    .carousel-item{
     display: flex;
     flex-flow: column;
-    height: fit-content;
-    width: 50vw;
+    /* height: fit-content; */
+    width: 60vw;
     /* padding-top: 5%; */
    }
 
