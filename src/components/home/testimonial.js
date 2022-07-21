@@ -1,5 +1,8 @@
-import React from "react";
+ 
+ 
+ import React from "react";
 import Carousel from "react-material-ui-carousel";
+// import RandomIcon from '@@mui/icons-material/Random';
 
 // import Slider from "react-slick";
 // import "slick-carousel/slick/slick.css";
@@ -114,12 +117,14 @@ function HomeTestimonial(props) {
       image: person_logo,
       name: "Shubham Ramesh Gole",
       role: "Software developer",
-      description: "Hello World!",
+      description: "Probably the most random thing you have ever seen!",
     },
   ];
 
   return (
-    <Carousel>
+    <Carousel id="fullCarousel">
+      {/* {<img src="http://random.com/next"/>}
+    {<img src="http://random.com/prev"/>} */}
       {items.map((item, i) => (
         <Item key={i} item={item} />
       ))}
@@ -130,7 +135,7 @@ function HomeTestimonial(props) {
 function Item(props) {
   console.log(props);
   return (
-    <div className="testimonial">
+    <div className="testimonial" id="fullCarousel">
       <div className="carousel-item">
         <div className="item-left">
           <img alt="person logo" src={props.item.image} />
