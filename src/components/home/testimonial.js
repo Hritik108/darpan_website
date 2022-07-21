@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 // import Carousel from "react-material-ui-carousel";
 
+import React from "react";
+import Carousel from "react-material-ui-carousel";
+// import RandomIcon from '@@mui/icons-material/Random';
+
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -182,5 +186,52 @@ class HomeTestimonial extends React.Component {
 //     </Carousel>
 //   );
 // }
+
+function HomeTestimonial(props) {
+  var items = [
+    {
+      image: person_logo,
+      name: "Vikhil Bajanna Sallagargi",
+      role: "Software developer",
+      description: "Probably the most random thing you have ever seen!",
+    },
+    {
+      image: person_logo,
+      name: "Shubham Ramesh Gole",
+      role: "Software developer",
+      description: "Probably the most random thing you have ever seen!",
+    },
+  ];
+
+  return (
+    <Carousel id="fullCarousel">
+      {/* {<img src="http://random.com/next"/>}
+    {<img src="http://random.com/prev"/>} */}
+      {items.map((item, i) => (
+        <Item key={i} item={item} />
+      ))}
+    </Carousel>
+  );
+}
+
+function Item(props) {
+  console.log(props);
+  return (
+    <div className="testimonial" id="fullCarousel">
+      <div className="carousel-item">
+        <div className="item-left">
+          <img alt="person logo" src={props.item.image} />
+        </div>
+        <div className="item-right">
+          <header className="item-header">
+            <h1>{props.item.name}</h1>
+            <h4>{props.item.role}</h4>
+          </header>
+          <p>{props.item.description}</p>
+        </div>
+      </div>
+    </div>
+  );
+}
 
 export default HomeTestimonial;

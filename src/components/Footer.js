@@ -49,8 +49,8 @@ class Footer extends React.Component{
                         </ul>
                         <p>Please Follow us on our social media platform</p>
                         <div className="social-media">
-                            <a href=""><InstagramIcon className="icons" sx={{fontSize:25}} color="primary" /></a>
-                            <a href=""><YouTubeIcon className="icons" sx={{fontSize:25}} color = "primary" /></a>
+                            <a href="https://instagram.com/darpan_worli?igshid=YmMyMTA2M2Y=" target="_blank"><InstagramIcon className="icons" sx={{fontSize:25}} color="primary" /></a>
+                            <a href="https://www.youtube.com/channel/UCFkt3MlyuRUpGXfIe3zlGGw" target="_blank"><YouTubeIcon className="icons" sx={{fontSize:25}} color = "primary" /></a>
                             <a href=""><FacebookIcon className="icons" sx={{fontSize:25}} color = "primary" /></a>
 				        </div>
                 </div>
