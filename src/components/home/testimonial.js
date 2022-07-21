@@ -1,10 +1,4 @@
 import React, { useState } from "react";
-// import Carousel from "react-material-ui-carousel";
-
-import React from "react";
-import Carousel from "react-material-ui-carousel";
-// import RandomIcon from '@@mui/icons-material/Random';
-
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -17,13 +11,6 @@ import person_logo from "../../assets/images/person.png";
 
 class HomeTestimonial extends React.Component {
   render() {
-    // var settings = {
-    //   dots: true,
-    //   infinite: true,
-    //   speed: 500,
-    //   slidesToShow: 1,
-    //   slidesToScroll: 1,
-    // };
     var settings = {
       dots: true,
       infinite: true,
@@ -37,13 +24,8 @@ class HomeTestimonial extends React.Component {
       autoplaySpeed: 5000,
       className: "slides",
       arrows: true,
-    };
-    var settings = {
-      dots: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 1,
+      nextArrow: <SamplePrevArrow />,
+      prevArrow: <SamplePrevArrow />,
     };
     return (
       <Slider {...settings}>
@@ -100,138 +82,10 @@ class HomeTestimonial extends React.Component {
               </p>
             </div>
           </div>
-          ß
         </div>
       </Slider>
     );
   }
-}
-
-// function HomeTestimonial(props) {
-//   var items = [
-//     {
-//       image: person_logo,
-//       name: "Vikhil Bajanna Sallagargi",
-//       role: "Software developer",
-//       description: "Probably the most random thing you have ever seen!",
-//     },
-//     {
-//       image: person_logo,
-//       name: "Shubham Ramesh Gole",
-//       role: "Software developer",
-//       description: "Hello World!",
-//     },
-//   ];
-
-//   return (
-//     <Carousel>
-//       {items.map((item, i) => (
-//         <Item key={i} item={item} />
-//       ))}
-//     </Carousel>
-//   );
-// }
-
-// function Item(props) {
-//   console.log(props);
-//   return (
-//     <div className="testimonial">
-//       <div className="carousel-item">
-//         <div className="item-left">
-//           <img alt="person logo" src={props.item.image} />
-//         </div>
-//         <div className="item-right">
-//           <header className="item-header">
-//             <h1>{props.item.name}</h1>
-//             <h4>{props.item.role}</h4>
-//           </header>
-//           <p>{props.item.description}</p>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
-
-// import Carousel from "react-bootstrap/Carousel";
-// import "bootstrap/dist/css/bootstrap.css";
-
-// function HomeTestimonial() {
-//   const [index, setIndex] = useState(0);
-
-//   const handleSelect = (selectedIndex, e) => {
-//     setIndex(selectedIndex);
-//   };
-//   return (
-//     <Carousel activeIndex={index} onSelect={handleSelect}>
-//       <Carousel.Item>
-//         <div className="testimonial">
-//           <div className="carousel-item">
-//             <div className="item-left">
-//               <img alt="person logo" src={person_logo} />
-//             </div>
-//             <div className="item-right">
-//               <header className="item-header">
-//                 <h1>Vikhil Bajanna Sallagargi</h1>
-//                 <h4>Software Engineer</h4>
-//               </header>
-//               <p>
-//                 &#8220; It is a long established fact that a reader will be
-//                 distracted by the readable content of a page when looking at its
-//                 layout. The point of using.
-//               </p>
-//             </div>
-//           </div>
-//         </div>
-//       </Carousel.Item>
-//     </Carousel>
-//   );
-// }
-
-function HomeTestimonial(props) {
-  var items = [
-    {
-      image: person_logo,
-      name: "Vikhil Bajanna Sallagargi",
-      role: "Software developer",
-      description: "Probably the most random thing you have ever seen!",
-    },
-    {
-      image: person_logo,
-      name: "Shubham Ramesh Gole",
-      role: "Software developer",
-      description: "Probably the most random thing you have ever seen!",
-    },
-  ];
-
-  return (
-    <Carousel id="fullCarousel">
-      {/* {<img src="http://random.com/next"/>}
-    {<img src="http://random.com/prev"/>} */}
-      {items.map((item, i) => (
-        <Item key={i} item={item} />
-      ))}
-    </Carousel>
-  );
-}
-
-function Item(props) {
-  console.log(props);
-  return (
-    <div className="testimonial" id="fullCarousel">
-      <div className="carousel-item">
-        <div className="item-left">
-          <img alt="person logo" src={props.item.image} />
-        </div>
-        <div className="item-right">
-          <header className="item-header">
-            <h1>{props.item.name}</h1>
-            <h4>{props.item.role}</h4>
-          </header>
-          <p>{props.item.description}</p>
-        </div>
-      </div>
-    </div>
-  );
 }
 
 export default HomeTestimonial;
