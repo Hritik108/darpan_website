@@ -10,7 +10,6 @@
     border: 1px;
     border-radius: 20px;
     box-shadow: 5px 5px #A9A9A9;
-    margin-top:30vh;
 }
 
 .carousel-item{
@@ -56,18 +55,16 @@
 }
 
 .slick-next , .slick-prev{
-    top: 47% !important;
+    top: 25% !important;
 }
 
 .slick-prev {
     left: 15% !important;
     z-index: 1;
-    background-color: black !important;
   }
   .slick-next {
     right: 15% !important;
     z-index: 1;
-    background-color: black !important;
   }
 
   @media only screen and (max-width: 700px) {

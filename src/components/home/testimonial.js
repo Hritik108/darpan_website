@@ -8,9 +8,21 @@ import "../../assets/styles/Home/hometestimonial.css";
 
 //IMAGES
 import person_logo from "../../assets/images/person.png";
+import right_arrow from "../../assets/images/right_arrow.png";
+import left_arrow from "../../assets/images/left_arrow.png";
+import smart_man from "../../assets/images/smart_man.png";
+import smart_man2 from "../../assets/images/smart_man2.png";
 
 class HomeTestimonial extends React.Component {
   render() {
+    function next_arrow() {
+      return <img src={right_arrow} />;
+    }
+
+    function prev_arrow() {
+      return <img src={left_arrow} />;
+    }
+
     var settings = {
       dots: true,
       infinite: true,
@@ -20,21 +32,22 @@ class HomeTestimonial extends React.Component {
       autoplay: true,
       centerMode: true,
       adaptiveHeight: true,
-      arrows: true,
       autoplaySpeed: 5000,
       className: "slides",
-      arrows: true,
+      // arrows: true,
+      nextArrow: next_arrow(),
+      prevArrow: prev_arrow(),
     };
     return (
       <Slider {...settings}>
         <div className="testimonial">
           <div className="carousel-item">
             <div className="item-left">
-              <img alt="person logo" src={person_logo} />
+              <img alt="person logo" src={smart_man} />
             </div>
             <div className="item-right">
               <header className="item-header">
-                <h1>Vikhil Bajanna Sallagargi</h1>
+                <h1>Naresh Rana</h1>
                 <h4>Software Engineer</h4>
               </header>
               <p>
@@ -48,11 +61,11 @@ class HomeTestimonial extends React.Component {
         <div className="testimonial">
           <div className="carousel-item">
             <div className="item-left">
-              <img alt="person logo" src={person_logo} />
+              <img alt="person logo" src={smart_man2} />
             </div>
             <div className="item-right">
               <header className="item-header">
-                <h1>Shubham Ramesh Gole</h1>
+                <h1>Manish shukhla</h1>
                 <h4>Software Engineer</h4>
               </header>
               <p>
@@ -63,14 +76,14 @@ class HomeTestimonial extends React.Component {
             </div>
           </div>
         </div>
-        <div className="testimonial">
+        {/* <div className="testimonial">
           <div className="carousel-item">
             <div className="item-left">
-              <img alt="person logo" src={person_logo} />
+              <img alt="person logo" src={smart_man} />
             </div>
             <div className="item-right">
               <header className="item-header">
-                <h1>Hritik Ramdhan Chauhan</h1>
+                <h1>Naresh Rana</h1>
                 <h4>Software Engineer</h4>
               </header>
               <p>
@@ -80,7 +93,7 @@ class HomeTestimonial extends React.Component {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
       </Slider>
     );
   }

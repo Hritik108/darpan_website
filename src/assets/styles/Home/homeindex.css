@@ -75,9 +75,11 @@ body {
 }
 
 @media only screen and (max-width:450px){
-    .index-buttons 
-    Button:nth-child(2){
-        margin-left: 0.2%;
-        margin-top: 20px;
-    } 
+    .index-buttons a:nth-child(2) Button
+    {   
+        margin-top: 10%;
+    }
+    /* .index-buttons a:nth-child(2){
+        margin-right: -10px;
+      } */
 }

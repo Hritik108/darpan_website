@@ -11,10 +11,10 @@
 .Contactusform{
   background: #f7f8fa;
   display: flex;
-  padding-top: 7%;
-  padding-bottom: 5%;
   color: #777;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
+  margin-top: 1.5%;
+  padding-top: 5%;
 }
 
 #form-heading{
@@ -23,8 +23,9 @@
 
 address{
   margin-top: -20px;
-  font-size: 100%;
+  font-size: 80%;
   text-align: justify;
+  font-style: normal;
 }
 
 .contactdesc .social-media{

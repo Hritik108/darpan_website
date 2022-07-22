@@ -95,11 +95,9 @@
    display: inline;
 }
 
-/* .Appointment-services1-2
-   margin-top: 10%;
-   width: 75%;
-   font-size: 1.2em;
-} */
+.Appointment-services-desc p{
+   font-weight: 550;
+}
 
 @media screen and (max-width:600px) {
 
