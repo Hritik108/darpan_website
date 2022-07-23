@@ -6,9 +6,6 @@ import speak from "../../assets/images/speak.png";
 import math from "../../assets/images/math.png";
 import buddha from "../../assets/images/Buddha.png";
 
-import monk from "../../assets/images/monk.jfif";
-import { Button } from "@mui/material";
-
 class Services extends React.Component {
   render() {
     return (

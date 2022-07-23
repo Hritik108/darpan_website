@@ -3,9 +3,9 @@ import "../../assets/styles/contactusform.css";
 import $ from "jquery";
 
 //ICONS
-import InstagramIcon from "@mui/icons-material/Instagram";
-import YouTubeIcon from "@mui/icons-material/YouTube";
-import FacebookIcon from "@mui/icons-material/Facebook";
+// import InstagramIcon from "@mui/icons-material/Instagram";
+// import YouTubeIcon from "@mui/icons-material/YouTube";
+// import FacebookIcon from "@mui/icons-material/Facebook";
 
 function Contactusform() {
   async function load_messages() {
@@ -57,7 +57,7 @@ function Contactusform() {
         <h3>Email:</h3>
         <address>sallagargivikhil123@gmail.com</address>
         <h3>Our Socia Media:</h3>
-        <div className="social-media">
+        {/* <div className="social-media">
           <a href="">
             <InstagramIcon
               className="icons"
@@ -79,7 +79,7 @@ function Contactusform() {
               color="primary"
             />
           </a>
-        </div>
+        </div> */}
       </div>
       <form className="contactform" onSubmit={onSubmit}>
         <h1 id="form-heading">Get in Touch</h1>

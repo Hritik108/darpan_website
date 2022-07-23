@@ -8,7 +8,8 @@ import EQ from "../../assets/images/EQ.png";
 import IQ from "../../assets/images/IQ.png";
 
 // import monk from "../../assets/images/monk.jfif";
-import { Button } from "@mui/material";
+// import { Button } from "@mui/material@material-ui/core";
+import { Button } from "@material-ui/core";
 class Appointment extends React.Component {
   render() {
     return (
