@@ -2,7 +2,6 @@
   "name": "darpan",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://127.0.0.1:5050",
   "dependencies": {
     "@material-ui/core": "^4.12.4",
     "jquery": "^3.6.0",
