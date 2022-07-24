@@ -2,6 +2,10 @@
   "name": "darpan",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": "8.12.1",
+    "node": "18.4.0"
+  },
   "dependencies": {
     "@material-ui/core": "^4.12.4",
     "jquery": "^3.6.0",
