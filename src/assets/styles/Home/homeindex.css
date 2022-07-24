@@ -60,6 +60,14 @@ body {
     margin-top: 5%;
 }
 
+.MuiButtonBase-root{
+    display: inline-flex !important;
+}
+
+.MuiButton-contained{
+    color: white !important;
+}
+
 .index-image img{
     display: none;
     /* max-width: 100%; */
@@ -68,6 +76,7 @@ body {
  /* margin-top: 10%; */
 }
 
+
 @media only screen and (max-width:700px){
     .desc-sub{
         width: 80vw;
@@ -75,11 +84,8 @@ body {
 }
 
 @media only screen and (max-width:450px){
-    .index-buttons a:nth-child(2) Button
-    {   
-        margin-top: 10%;
+    .MuiButtonBase-root{
+        display: block !important;
+        color: red;
     }
-    /* .index-buttons a:nth-child(2){
-        margin-right: -10px;
-      } */
 }

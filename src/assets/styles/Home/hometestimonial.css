@@ -1,3 +1,4 @@
+
 .testimonial{
     height: 100vh;
     display: flex;
@@ -54,18 +55,35 @@
     /* font-size: max(1.2vw,1.2vh); */
 }
 
-.slick-next , .slick-prev{
-    top: 25% !important;
+.carousel-indicators [data-bs-target] {
+    background-color: #37b0a1;
+    border-radius: 50%;
+    height: 7px;
+    width: 7px;
+  }
+
+
+.css-1g04gm2-MuiButtonBase-root-MuiIconButton-root
+{
+    color: black !important;
 }
 
-.slick-prev {
+.carousel-arrows{
+    width: 10%;
+}
+
+/* .slick-next , .slick-prev{
+    top: 25% !important;
+} */
+
+/* .slick-prev {
     left: 15% !important;
     z-index: 1;
   }
   .slick-next {
     right: 15% !important;
     z-index: 1;
-  }
+  } */
 
   @media only screen and (max-width: 700px) {
    .carousel-item{
