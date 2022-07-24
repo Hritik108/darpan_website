@@ -1,10 +1,10 @@
 import React from "react";
 import "../../assets/styles/appointment.css";
-import thinking from "../../assets/images/thinking.png";
-import music from "../../assets/images/music.png";
-import speak from "../../assets/images/speak.png";
-import math from "../../assets/images/math.png";
-import buddha from "../../assets/images/Buddha.png";
+//import thinking from "../../assets/images/thinking.png";
+import music from "../../assets/images/music.jpg";
+import speak from "../../assets/images/speak.jpg";
+import math from "../../assets/images/math.jpg";
+import buddha from "../../assets/images/Buddha.jpg";
 
 class Services extends React.Component {
   render() {

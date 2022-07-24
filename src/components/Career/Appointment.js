@@ -1,11 +1,11 @@
 import React from "react";
 import "../../assets/styles/appointment.css";
-import thinking from "../../assets/images/thinking.png";
+import thinking from "../../assets/images/thinking.jpg";
 // import counsell from "../../assets/images/thinking.png";
-import guidance from "../../assets/images/guidance.png";
-import mentoring from "../../assets/images/mentoring.png";
-import EQ from "../../assets/images/EQ.png";
-import IQ from "../../assets/images/IQ.png";
+import guidance from "../../assets/images/guidance.jpg";
+import mentoring from "../../assets/images/mentoring.jpg";
+import EQ from "../../assets/images/EQ.jpg";
+import IQ from "../../assets/images/IQ.jpg";
 
 // import monk from "../../assets/images/monk.jfif";
 // import { Button } from "@mui/material@material-ui/core";
