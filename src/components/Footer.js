@@ -1,13 +1,14 @@
 import React from "react";
 import "../assets/styles/footer.css";
 import Logo from "../assets/images/darpan_logo.png";
-// import InstagramIcon from '@mui/icons-material/Instagram';
-// import YouTubeIcon from '@mui/icons-material/YouTube';
-// import FacebookIcon from '@mui/icons-material/Facebook';
-// import EmailIcon from '@mui/icons-material/Email';
-// import PhoneIcon from '@mui/icons-material/Phone';
-// import LocationOnIcon from '@mui/icons-material/LocationOn';
-// import { Button } from "@mui/material";
+import {FaInstagram}  from "@react-icons/all-files/fa/FaInstagram";
+import {FaYoutube}  from "@react-icons/all-files/fa/FaYoutube";
+import {FaFacebookSquare}  from "@react-icons/all-files/fa/FaFacebookSquare";
+import {HiOutlineMail}  from "@react-icons/all-files/hi/HiOutlineMail";
+import {FaPhone}  from "@react-icons/all-files/fa/FaPhone";
+import {HiOutlineLocationMarker}  from "@react-icons/all-files/hi/HiOutlineLocationMarker";
+
+import { Button } from "@mui/material";
 
 class Footer extends React.Component {
   render() {
@@ -66,55 +67,44 @@ class Footer extends React.Component {
           </div>
           <div className="footer-items">
             <h3 id="links-header">CONTACT</h3>
-            {/* <ul className="footer-links">
+            <ul className="footer-links">
               <li>
-                <EmailIcon className="contact-icon" /> darpanworli@gmail.com{" "}
+                <HiOutlineMail className="contact-icon"  style={{fontSize:"20px"}} /> darpanworli@gmail.com{" "} 
               </li>
               <li>
                 {" "}
-                <PhoneIcon className="contact-icon" /> +91 8454077945{" "}
+                <FaPhone className="contact-icon" /> +91 8454077945{" "}
               </li>
               <li>
                 {" "}
-                <LocationOnIcon className="contact-icon" />
-                <Button
+                <HiOutlineLocationMarker className="contact-icon" style={{fontSize:"24px"}} />
+                <a id="location" href="https://maps.app.goo.gl/5Sgi4MQtqx9oykum8" target="_blank"> <Button
                   variant="contained"
                   style={{ backgroundColor: "#06283D" }}
                 >
                   Location
                 </Button>
+                </a>
               </li>
-            </ul> */}
+            </ul>
             <p>Please Follow us on our social media platform</p>
-            {/* <div className="social-media">
+            <div className="social-media">
               <a
                 href="https://instagram.com/darpan_worli?igshid=YmMyMTA2M2Y="
-                target="_blank"
-              >
-                <InstagramIcon
-                  className="icons"
-                  sx={{ fontSize: 25 }}
-                  color="primary"
-                />
+                target="_blank"> <FaInstagram className="icons" style={{fontSize:"25px"}} />
+                
               </a>
               <a
                 href="https://www.youtube.com/channel/UCFkt3MlyuRUpGXfIe3zlGGw"
                 target="_blank"
               >
-                <YouTubeIcon
-                  className="icons"
-                  sx={{ fontSize: 25 }}
-                  color="primary"
-                />
+                <FaYoutube className="icons" style={{fontSize:"25px"}} />
               </a>
+
               <a href="">
-                <FacebookIcon
-                  className="icons"
-                  sx={{ fontSize: 25 }}
-                  color="primary"
-                />
+                <FaFacebookSquare className="icons" style={{fontSize:"25px"}} />
               </a>
-            </div> */}
+            </div>
           </div>
         </div>
         <div className="footer-bottom">

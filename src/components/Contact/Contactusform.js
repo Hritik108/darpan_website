@@ -3,9 +3,9 @@ import "../../assets/styles/contactusform.css";
 import $ from "jquery";
 
 //ICONS
-// import InstagramIcon from "@mui/icons-material/Instagram";
-// import YouTubeIcon from "@mui/icons-material/YouTube";
-// import FacebookIcon from "@mui/icons-material/Facebook";
+import {FaInstagram}  from "@react-icons/all-files/fa/FaInstagram";
+import {FaYoutube}  from "@react-icons/all-files/fa/FaYoutube";
+import {FaFacebookSquare}  from "@react-icons/all-files/fa/FaFacebookSquare";
 
 function Contactusform() {
   async function load_messages() {
@@ -57,29 +57,23 @@ function Contactusform() {
         <h3>Email:</h3>
         <address>sallagargivikhil123@gmail.com</address>
         <h3>Our Socia Media:</h3>
-        {/* <div className="social-media">
-          <a href="">
-            <InstagramIcon
-              className="icons"
-              sx={{ fontSize: 30 }}
-              color="primary"
-            />
-          </a>
-          <a href="">
-            <YouTubeIcon
-              className="icons"
-              sx={{ fontSize: 30 }}
-              color="primary"
-            />
-          </a>
-          <a href="">
-            <FacebookIcon
-              className="icons"
-              sx={{ fontSize: 30 }}
-              color="primary"
-            />
-          </a>
-        </div> */}
+        <div className="social-media">
+              <a
+                href="https://instagram.com/darpan_worli?igshid=YmMyMTA2M2Y="
+                target="_blank"> <FaInstagram className="icons" style={{fontSize:"25px"}} />
+                
+              </a>
+              <a
+                href="https://www.youtube.com/channel/UCFkt3MlyuRUpGXfIe3zlGGw"
+                target="_blank"
+              >
+                <FaYoutube className="icons" style={{fontSize:"25px"}} />
+              </a>
+
+              <a href="">
+                <FaFacebookSquare className="icons" style={{fontSize:"25px"}} />
+              </a>
+            </div>
       </div>
       <form className="contactform" onSubmit={onSubmit}>
         <h1 id="form-heading">Get in Touch</h1>

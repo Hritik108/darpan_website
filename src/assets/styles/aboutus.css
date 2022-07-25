@@ -1,5 +1,3 @@
-/* @import aboutus from "../images/aboutus.jpg"; */
-
 .about-home {
     width: 100%;
     overflow-x: hidden;
@@ -19,8 +17,6 @@
   }
   .heading-main{
     background-image: url('../images/aboutus.jpg');
-	/* background-image: url('https://images.pexels.com/photos/1782275/pexels-photo-1782275.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
-    /* filter: grayscale(100%); */
     background-size:100% 300px;
     align-items: center;
     justify-content: space-around;

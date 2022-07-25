@@ -60,6 +60,9 @@
     border-bottom: 3px solid rgb(42, 197, 253);
     transition: 0.5s;
 }
+#location:hover{
+    border-bottom: none;
+}
 .contact-info{
     padding-left: 26%;
 }
