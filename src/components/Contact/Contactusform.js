@@ -52,10 +52,10 @@ function Contactusform() {
           Mumbai. 400013
         </address>
         <h3>Contact Number:</h3>
-        <address>+91 7506229401</address>
+        <address>+91 8454077945</address>
 
         <h3>Email:</h3>
-        <address>sallagargivikhil123@gmail.com</address>
+        <address>darpanworli@gmail.com</address>
         <h3>Our Socia Media:</h3>
         <div className="social-media">
               <a
