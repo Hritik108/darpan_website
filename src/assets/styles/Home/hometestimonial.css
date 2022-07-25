@@ -1,11 +1,14 @@
 
 .testimonial{
-    height: 100vh;
+    height: 70vh;
     display: flex;
+    z-index: 5;
 }
+
+
 .carousel-item{
-    margin: auto;
-    width: 50vw;
+    margin:auto;
+    width: 80vh;
     height: fit-content;
     background-color: #f7f8fa;
     border: 1px;

@@ -35,8 +35,12 @@
 .Appointment-services1,.Appointment-services2{
    display: flex;
    justify-content: space-between; 
-   /* margin-bottom: 9vw;  */
-   height: 90vh;
+   margin-bottom: 12vw; 
+   /* height: 90vh; */
+}
+
+.Appointment-services2:last-child{
+   margin-bottom: 10vw;
 }
 
 .Appointment-services1 div img{
@@ -118,8 +122,8 @@
       
       }
       .Appointment-services1-2{
-width: 80vw;
-text-align: left;
+      width: 80vw;
+
       }
 
       .Appointment-services2 div img{

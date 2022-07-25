@@ -40,34 +40,37 @@ function HomeTestimonial(props) {
   ];
 
   return (
-    <Carousel
-      navButtonsAlwaysVisible="true"
-      activeIndicatorIconButtonProps={{
-        style: {
-          color: "Black",
-        },
-      }}
-      indicatorIconButtonProps={{
-        style: {
-          fontSize: "rem",
-          width: "10px",
-          padding: "15px",
-        },
-      }}
-      navButtonsProps={{
-        // Change the colors and radius of the actual buttons. THIS STYLES BOTH BUTTONS
-        style: {
-          width: "8em",
-          fontSize: "2rem",
-          backgroundColor: "transparent",
-        },
-      }}
-      animation="slide"
-    >
-      {items.map((item, i) => (
-        <Item key={i} {...item} />
-      ))}
-    </Carousel>
+    <div className="Testimonial-main">
+      <h1 style={{ textAlign: "center", fontSize: "300%" }}>Testimonial</h1>
+      <Carousel
+        navButtonsAlwaysVisible="true"
+        activeIndicatorIconButtonProps={{
+          style: {
+            color: "Black",
+          },
+        }}
+        indicatorIconButtonProps={{
+          style: {
+            fontSize: "rem",
+            width: "10px",
+            padding: "15px",
+          },
+        }}
+        navButtonsProps={{
+          // Change the colors and radius of the actual buttons. THIS STYLES BOTH BUTTONS
+          style: {
+            width: "8em",
+            fontSize: "2rem",
+            backgroundColor: "transparent",
+          },
+        }}
+        animation="slide"
+      >
+        {items.map((item, i) => (
+          <Item key={i} {...item} />
+        ))}
+      </Carousel>
+    </div>
   );
 }
 const Item = ({ name, description, full_description, imageSrc }) => {
