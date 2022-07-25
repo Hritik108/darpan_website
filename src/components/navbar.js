@@ -17,7 +17,6 @@ class Navbar extends React.Component {
   componentDidMount() {
     window.addEventListener("scroll", this.handleScroll);
     window.addEventListener("resize", this.handleResize);
-    this.handleResize();
     if (window.location.pathname === "/Home") {
       this.setState({ active: "home" });
     } else if (window.location.pathname === "/") {
@@ -90,14 +89,6 @@ class Navbar extends React.Component {
                   className={`${this.state.active === "home" ? "circle" : ""}`}
                 ></div>
               </a>
-              {/* <a href="/Events">
-                Events
-                <div
-                  className={`${
-                    this.state.active === "events" ? "circle" : ""
-                  }`}
-                ></div>
-              </a> */}
               <a href="/Career">
                 Career Counseling
                 <div
