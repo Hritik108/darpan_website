@@ -76,13 +76,13 @@
 .cbp_tmtimeline:before {
 	content: '';
 	position: absolute;
-	top: 30px;
+	top: 20px;
 	bottom: 0;
 	width: 4px;
-	height: 450px;
+	height: 420px;
 	background:#1B65A7;
-	left: 33.8%;
-	margin-left: -10px;
+	left: 32.5%;
+	/* margin-left: -10px; */
 }
 
 /* The date/time */
@@ -232,42 +232,20 @@
 	content: "\e003";
 }
 
-/* Example Media Queries */
-@media screen and (max-width: 1100px){
-  .cbp_tmtimeline:before{
-    left: 34%;
-  }
-}
-/* @media screen and (max-width: 1035px){
-  .cbp_tmtimeline:before{
-    left: 35%;
-  }
-} */
 @media screen and (max-width: 65.375em) {
 
 	.cbp_tmtimeline > li .cbp_tmtime span:last-child {
 		font-size: 1.5em;
 	}
-  .cbp_tmtimeline:before{
-    left: 35%;
-  }
 }
 @media screen and (max-width: 1230px){
 	.cbp_tmtimeline > li .cbp_tmtime span{
 		padding-left: 50px;
 	}
-	.cbp_tmtimeline:before {
-		height: 600px;
-	}
-
 }
 @media screen and (max-width: 1100px){
 	.cbp_tmtimeline > li .cbp_tmtime span{
 		padding-left: 30px;
-
-	}
-	.cbp_tmtimeline:before{
-		left: 35%;
 	}
 
 }
@@ -336,10 +314,4 @@
 		width: 100%;
 		padding: 0px;
 	}
-}
-
-@media screen and (max-width: 1290px){
-	/* .cbp_tmtimeline:before{
-		left: 34.2%;
-	} */
 }

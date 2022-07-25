@@ -62,9 +62,12 @@
     width: 7px;
   }
 
-
 .css-1g04gm2-MuiButtonBase-root-MuiIconButton-root
 {
+    color: black !important;
+}
+
+.css-1wy4w1a{
     color: black !important;
 }
 
@@ -72,18 +75,6 @@
     width: 10%;
 }
 
-/* .slick-next , .slick-prev{
-    top: 25% !important;
-} */
-
-/* .slick-prev {
-    left: 15% !important;
-    z-index: 1;
-  }
-  .slick-next {
-    right: 15% !important;
-    z-index: 1;
-  } */
 
   @media only screen and (max-width: 700px) {
    .carousel-item{
