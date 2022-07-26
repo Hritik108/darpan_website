@@ -6,6 +6,8 @@ import $ from "jquery";
 import { FaInstagram } from "@react-icons/all-files/fa/FaInstagram";
 import { FaYoutube } from "@react-icons/all-files/fa/FaYoutube";
 import { FaFacebookSquare } from "@react-icons/all-files/fa/FaFacebookSquare";
+import {FaWhatsapp}  from "@react-icons/all-files/fa/FaWhatsapp";
+import { Button } from "@mui/material";
 
 function Contactusform() {
   async function load_messages() {
@@ -77,6 +79,8 @@ function Contactusform() {
           <a href="" rel="noopener">
             <FaFacebookSquare className="icons" style={{ fontSize: "25px" }} />
           </a>
+          <p id="wp">Connect Us On Whatsapp </p>
+          <a href="https://chat.whatsapp.com/EXCfFSHesMZ2KDfdPm12pH" target="_blank"><Button id="contct-whatsappbtn" variant="outlined"><FaWhatsapp style={{fontSize:"20px"}} /> &nbsp; Whatsapp</Button></a>
         </div>
       </div>
       <form className="contactform" onSubmit={onSubmit}>
