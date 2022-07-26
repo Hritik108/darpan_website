@@ -12,7 +12,7 @@ class Services extends React.Component {
       <div className="Appointment-services Appointment">
         <div className="Appointment-services1">
           <div className="Appointment-image">
-            <img src={buddha} />
+            <img alt="Bhagvad Gita Classes" src={buddha} />
           </div>
 
           <div className="Appointment-services1-2 Appointment-services-desc">
@@ -53,13 +53,13 @@ class Services extends React.Component {
             </p>
           </div>
           <div className="Appointment-image">
-            <img src={speak} />
+            <img alt="Public Speaking Club Worli" src={speak} />
           </div>
         </div>
 
         <div className="Appointment-services1">
           <div className="Appointment-image">
-            <img src={music} />
+            <img alt="Music Classes Worli" src={music} />
           </div>
 
           <div className="Appointment-services1-2 Appointment-services-desc">
@@ -97,7 +97,7 @@ class Services extends React.Component {
             </p>
           </div>
           <div className="Appointment-image">
-            <img src={math} />
+            <img alt="Vedic Maths worli" src={math} />
           </div>
         </div>
       </div>

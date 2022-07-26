@@ -17,6 +17,7 @@ class Navbar extends React.Component {
   componentDidMount() {
     window.addEventListener("scroll", this.handleScroll);
     window.addEventListener("resize", this.handleResize);
+    this.handleResize();
     if (window.location.pathname === "/Home") {
       this.setState({ active: "home" });
     } else if (window.location.pathname === "/") {
@@ -79,7 +80,7 @@ class Navbar extends React.Component {
           <div className="navbar-main">
             <div className="navbar-logo">
               <a href="/">
-                <img src={Logo} />
+                <img alt="Darpan Worli Logo" src={Logo} />
               </a>
             </div>
             <div className="navbar-right">

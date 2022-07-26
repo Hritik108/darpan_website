@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import Slider from "react-slick";
+import React from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Carousel from "react-material-ui-carousel";
@@ -8,11 +7,11 @@ import Carousel from "react-material-ui-carousel";
 import "../../assets/styles/Home/hometestimonial.css";
 
 //IMAGES
-import person_logo from "../../assets/images/person.png";
-import right_arrow from "../../assets/images/right_arrow.png";
-import left_arrow from "../../assets/images/left_arrow.png";
+// import person_logo from "../../assets/images/person.png";
+// import right_arrow from "../../assets/images/right_arrow.png";
+// import left_arrow from "../../assets/images/left_arrow.png";
 import smart_man from "../../assets/images/smart_man.png";
-import smart_man2 from "../../assets/images/smart_man2.png";
+// import smart_man2 from "../../assets/images/smart_man2.png";
 
 function HomeTestimonial(props) {
   const items = [

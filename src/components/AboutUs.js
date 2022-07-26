@@ -9,14 +9,10 @@ class AboutUs extends React.Component {
   render() {
     return (
       <div className="about-home">
-        {/* <div className="about-heading">
-          <h1 id="about-head">About Us</h1>
-        </div> */}
         <div className="about-content">
           <div className="heading-main">
             <div className="heading-text">
               <h1>Our Story</h1>
-              {/* <p>Our story is one of a true example of one person’s visions formed by thousands hands together!It is a journey of a century in service to the society, Mother Earth and our Lord.</p> */}
             </div>
           </div>
         </div>
@@ -28,13 +24,14 @@ class AboutUs extends React.Component {
                   <span>2016</span>
                 </time>
                 <div className="cbp_tmicon cbp_tmicon-phone" id="about-icon">
-                  <img className="about-img" src={calendar} />
+                  <img
+                    alt="Darpan Worli"
+                    className="about-img"
+                    src={calendar}
+                  />
                 </div>
                 <div className="cbp_tmlabel">
-                  {/* <h2>Ricebean black-eyed pea</h2> */}
-                  <p>
-                    Inception
-                  </p>
+                  <p>Inception</p>
                 </div>
               </li>
               <li>
@@ -42,46 +39,36 @@ class AboutUs extends React.Component {
                   <span>2018</span>
                 </time>
                 <div className="cbp_tmicon cbp_tmicon-phone" id="about-icon">
-					<img className="about-img" src={growth} />
-				</div>
+                  <img alt="Darpan Worli" className="about-img" src={growth} />
+                </div>
                 <div className="cbp_tmlabel">
-                  {/* <h2>Greens radish arugula</h2> */}
-                  <p>
-                    Growth
-                  </p>
+                  <p>Growth</p>
                 </div>
               </li>
               <li>
                 <time className="cbp_tmtime">
                   <span>2020</span>
                 </time>
-                <div
-                  className="cbp_tmicon cbp_tmicon-phone"
-                  id="about-icon">
-					<img className="about-img" src={outreach} />
-				</div>
+                <div className="cbp_tmicon cbp_tmicon-phone" id="about-icon">
+                  <img
+                    alt="Darpan Worli"
+                    className="about-img"
+                    src={outreach}
+                  />
+                </div>
                 <div className="cbp_tmlabel">
-                  {/* <h2>Sprout garlic kohlrabi</h2> */}
-                  <p>
-                    Outreach
-                  </p>
+                  <p>Outreach</p>
                 </div>
               </li>
               <li>
                 <time className="cbp_tmtime">
                   <span>2022</span>
                 </time>
-                <div
-                  className="cbp_tmicon cbp_tmicon-phone"
-                  id="about-icon"
-                >
-					<img className="about-img" src={network} />
-				</div>
+                <div className="cbp_tmicon cbp_tmicon-phone" id="about-icon">
+                  <img alt="Darpan Worli" className="about-img" src={network} />
+                </div>
                 <div className="cbp_tmlabel">
-                  {/* <h2>Watercress ricebean</h2> */}
-                  <p>
-                    Expansion
-                  </p>
+                  <p>Expansion</p>
                 </div>
               </li>
             </ul>
