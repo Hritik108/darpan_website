@@ -7,7 +7,7 @@ import {FaFacebookSquare}  from "@react-icons/all-files/fa/FaFacebookSquare";
 import {HiOutlineMail}  from "@react-icons/all-files/hi/HiOutlineMail";
 import {FaPhone}  from "@react-icons/all-files/fa/FaPhone";
 import {HiOutlineLocationMarker}  from "@react-icons/all-files/hi/HiOutlineLocationMarker";
-
+import {FaWhatsapp}  from "@react-icons/all-files/fa/FaWhatsapp";
 import { Button } from "@mui/material";
 
 class Footer extends React.Component {
@@ -87,7 +87,7 @@ class Footer extends React.Component {
                 </a>
               </li>
             </ul>
-            <p>Please Follow us on our social media platform</p>
+            <p>You can follow us on our social media platform</p>
             <div className="social-media">
               <a
                 href="https://instagram.com/darpan_worli?igshid=YmMyMTA2M2Y="
@@ -102,8 +102,13 @@ class Footer extends React.Component {
               </a>
 
               <a href="">
-                <FaFacebookSquare className="icons" style={{fontSize:"25px"}} />
+                <FaFacebookSquare className="icons" id="fb" style={{fontSize:"25px"}} />
               </a>
+              <a href="https://chat.whatsapp.com/EXCfFSHesMZ2KDfdPm12pH" target="_blank">
+                {/* <Button id="whatsappbtn" variant="outlined"> */}
+                <FaWhatsapp id="wp-icon" className="icons" style={{fontSize:"25px"}} /> 
+                {/* &nbsp; Whatsapp</Button> */}
+                </a>
             </div>
           </div>
         </div>
