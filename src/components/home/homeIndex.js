@@ -1,9 +1,10 @@
 import React from "react";
-// import { Button } from "@mui/material";
 import { Button } from "@material-ui/core";
 
 //css
 import "../../assets/styles/Home/homeindex.css";
+
+//IMAGES
 
 class Homeindex extends React.Component {
   render() {
