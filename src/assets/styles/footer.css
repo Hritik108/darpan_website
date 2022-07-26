@@ -124,10 +124,10 @@
 	color: #fff;
 	font-size: 12px;
 }
-#fb{
-    margin-right: 10px;
-}
-#whatsappbtn{
+/* #wp-icon{
+    color: rgb(73, 245, 73);
+} */
+/* #whatsappbtn{
     border-color: rgb(73, 245, 73);
     color: rgba(9, 236, 9,0.7);
     margin-top: -55px;
@@ -135,7 +135,7 @@
 #whatsappbtn:hover{
     background-color: rgb(9, 236, 9);
     color: #fff;
-}
+} */
 @media screen and (max-width: 1085px) {
 	.footer-items {
 		width: 50%;
