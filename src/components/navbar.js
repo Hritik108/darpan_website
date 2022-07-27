@@ -142,6 +142,7 @@ class Navbar extends React.Component {
           <div className="hamburger" onClick={() => openNav()}>
             ☰
           </div>
+          <img id="navbar-logo" src={Logo} />
         </div>
       );
     }
