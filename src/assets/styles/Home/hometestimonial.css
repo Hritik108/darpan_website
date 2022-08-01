@@ -77,6 +77,11 @@
 .carousel-arrows{
     width: 10%;
 }
+.css-1m9128y{
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+}
 
 
   @media only screen and (max-width: 700px) {

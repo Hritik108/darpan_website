@@ -5,12 +5,18 @@ import calendar from "../assets/images/calendar.png";
 import outreach from "../assets/images/expansion.png";
 import network from "../assets/images/network.png";
 
+//IMAGES
+import aboutus from "../assets/images/aboutus.jpg";
+
 class AboutUs extends React.Component {
   render() {
     return (
       <div className="about-home">
         <div className="about-content">
-          <div className="heading-main">
+          <div
+            style={{ backgroundImage: `url(${aboutus})` }}
+            className="heading-main"
+          >
             <div className="heading-text">
               <h1>Our Story</h1>
             </div>

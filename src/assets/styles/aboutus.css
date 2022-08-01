@@ -16,7 +16,7 @@
     color: #fff                           ;
   }
   .heading-main{
-    background-image: url('../images/aboutus.jpg');
+    /* background-image: url('../images/aboutus.jpg'); */
     background-size:100% 300px;
     align-items: center;
     justify-content: space-around;

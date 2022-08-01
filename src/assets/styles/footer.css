@@ -54,6 +54,7 @@
 }
 .footer-links li{
     margin: 10px 0px;
+    display: flex;
 }
 .footer-links li a:hover{
     color: rgb(25, 151, 197);
@@ -127,18 +128,6 @@
 	color: #fff;
 	font-size: 12px;
 }
-/* #wp-icon{
-    color: rgb(73, 245, 73);
-} */
-/* #whatsappbtn{
-    border-color: rgb(73, 245, 73);
-    color: rgba(9, 236, 9,0.7);
-    margin-top: -55px;
-}
-#whatsappbtn:hover{
-    background-color: rgb(9, 236, 9);
-    color: #fff;
-} */
 @media screen and (max-width: 1085px) {
 	.footer-items {
 		width: 50%;
