@@ -18,9 +18,7 @@ class Footer extends React.Component {
           <div className="footer-items">
             <img id="logo" src={Logo} alt="logo" />
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer.
+            Darpan is a youth club empowered by its members with enthusuiasm to contribute towards the academic, personal, social & cultural development of individuals by inclucating the right education & guidance.
             </p>
           </div>
           <div className="footer-items">
@@ -28,40 +26,40 @@ class Footer extends React.Component {
             <ul className="footer-links">
               <li>
                 {" "}
-                <a href="#">Home</a>{" "}
+                <a href="">Home</a>{" "}
               </li>
               <li>
                 {" "}
-                <a href="#">About Us</a>{" "}
+                <a href="/About">About Us</a>{" "}
               </li>
               <li>
                 {" "}
-                <a href="#">Events</a>{" "}
+                <a href="/Career">Career Counselling</a>{" "}
               </li>
               <li>
                 {" "}
-                <a href="#"> Contact Us</a>{" "}
+                <a href="/Contact"> Contact Us</a>{" "}
               </li>
             </ul>
           </div>
           <div className="footer-items">
-            <h3 id="links-header">ABC</h3>
+            <h3 id="links-header">Counselling</h3>
             <ul className="footer-links">
               <li>
                 {" "}
-                <a href="#">Home</a>{" "}
+                <a href="/Career">Career Guidance</a>{" "}
               </li>
               <li>
                 {" "}
-                <a href="#">About Us</a>{" "}
+                <a href="/Career">Mentoring</a>{" "}
               </li>
               <li>
                 {" "}
-                <a href="#">Events</a>{" "}
+                <a href="Career">Emotional Quotient</a>{" "}
               </li>
               <li>
                 {" "}
-                <a href="#"> Contact Us</a>{" "}
+                <a href="Career">Intelligence Quotient</a>{" "}
               </li>
             </ul>
           </div>
@@ -78,13 +76,9 @@ class Footer extends React.Component {
               <li>
                 {" "}
                 <HiOutlineLocationMarker className="contact-icon" style={{fontSize:"24px"}} />
-                <a id="location" href="https://maps.app.goo.gl/5Sgi4MQtqx9oykum8" target="_blank"> <Button
-                  variant="contained"
-                  style={{ backgroundColor: "#06283D" }}
-                >
+                  <Button href="https://maps.app.goo.gl/5Sgi4MQtqx9oykum8" target="_blank"  id="location" variant="contained" style={{ backgroundColor: "#06283D" }}>
                   Location
                 </Button>
-                </a>
               </li>
             </ul>
             <p>You can follow us on our social media platform</p>

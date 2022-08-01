@@ -279,7 +279,9 @@
 		border-bottom-color: #1B65A7;
 		top: -48px;
 	}
-
+	.heading-main{
+		margin-left: 0px;
+	}
 	.cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after {
     /* left: 3px; */
 		border-right-color: transparent;
