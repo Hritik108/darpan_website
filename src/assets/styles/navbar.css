@@ -23,8 +23,10 @@ body {
 }
 
 .navbar-logo img{
-  padding-top: 2px;
-  max-width: 50%;
+  padding-top: 1px;
+ 
+  width: 250px;
+  height: 60px;
 }
 
 .navbar-main2{
@@ -74,6 +76,8 @@ body {
 #navbar-logo{
   width:50vw;
   margin-top: 10px;
+  margin-left: auto;
+  margin-right: 25%;
 }
 
 .hamburger{
@@ -125,3 +129,4 @@ body {
 .closebtn:hover{
   cursor: pointer;
 }
+

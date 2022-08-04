@@ -1,6 +1,6 @@
 import React from "react";
 import "../assets/styles/footer.css";
-import Logo from "../assets/images/darpan_logo.png";
+import Logo from "../assets/images/footer_logo.png";
 import {FaInstagram}  from "@react-icons/all-files/fa/FaInstagram";
 import {FaYoutube}  from "@react-icons/all-files/fa/FaYoutube";
 import {FaFacebookSquare}  from "@react-icons/all-files/fa/FaFacebookSquare";

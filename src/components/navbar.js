@@ -1,7 +1,7 @@
 import React from "react";
 import "../assets/styles/navbar.css";
 import jQuery from "jquery";
-import Logo from "../assets/images/logo.png";
+import Logo from "../assets/images/navbar_logo.png";
 
 class Navbar extends React.Component {
   constructor(props) {
