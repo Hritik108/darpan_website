@@ -171,7 +171,7 @@
 }
 
 .cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after {
-	border-right-color: #EFF9F8;
+	border-right-color:#EFF9F8;
 }
 
 /* The icons */
@@ -192,7 +192,7 @@
 	-webkit-font-smoothing: antialiased;
 	position: absolute;
 	color: #fff;
-	background: #EFF9F8;
+	background: #fff;
   background-position: center;
   background-repeat: no-repeat;
 	border-radius: 50%;
