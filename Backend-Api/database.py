@@ -48,9 +48,11 @@ class saveData:
         query = f"SELECT * FROM {TABLE}"
         self.cursor.execute(query)
         result = self.cursor.fetchall()
-        print(result)
+
         self.conn.commit()
         self.close()
+
+        return result
 
     def close(self):
         """

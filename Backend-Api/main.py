@@ -1,5 +1,5 @@
 
-from flask import Flask, request, send_from_directory
+from flask import Flask, render_template, send_from_directory
 from flask_cors import CORS
 import os
 from database import saveData
@@ -30,9 +30,9 @@ def get_data():
 def preview_data():
     db = saveData()
 
-    db.get_data()
+    results = db.get_data()
 
-    return "<h1> HELLO WORLD </h1>"
+    return render_template("showData.html", length=len(results), results=results)
 
 
 @app.route('/', defaults={'path': ''})
@@ -45,4 +45,4 @@ def serve(path):
 
 
 if __name__ == '__main__':
-    app.run(use_reloader=True, port=5050, threaded=True)
+    app.run(use_reloader=True, debug=True, port=5050, threaded=True)
