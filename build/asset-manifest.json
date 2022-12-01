@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ca063113.chunk.css",
+    "main.js": "/static/js/main.616f5890.chunk.js",
+    "main.js.map": "/static/js/main.616f5890.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9607c9bc.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9607c9bc.js.map",
+    "static/css/2.65f8c46c.chunk.css": "/static/css/2.65f8c46c.chunk.css",
+    "static/js/2.e8898a50.chunk.js": "/static/js/2.e8898a50.chunk.js",
+    "static/js/2.e8898a50.chunk.js.map": "/static/js/2.e8898a50.chunk.js.map",
+    "static/js/3.75b65a06.chunk.js": "/static/js/3.75b65a06.chunk.js",
+    "static/js/3.75b65a06.chunk.js.map": "/static/js/3.75b65a06.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.65f8c46c.chunk.css.map": "/static/css/2.65f8c46c.chunk.css.map",
+    "static/css/main.ca063113.chunk.css.map": "/static/css/main.ca063113.chunk.css.map",
+    "static/js/2.e8898a50.chunk.js.LICENSE.txt": "/static/js/2.e8898a50.chunk.js.LICENSE.txt",
+    "static/media/Buddha.5b290b77.jpg": "/static/media/Buddha.5b290b77.jpg",
+    "static/media/EQ.8b11efb3.jpg": "/static/media/EQ.8b11efb3.jpg",
+    "static/media/IQ.14dded1d.jpg": "/static/media/IQ.14dded1d.jpg",
+    "static/media/aboutus.ae154bbe.jpg": "/static/media/aboutus.ae154bbe.jpg",
+    "static/media/diagram.906e6629.png": "/static/media/diagram.906e6629.png",
+    "static/media/footer_logo.6c092563.png": "/static/media/footer_logo.6c092563.png",
+    "static/media/guidance.fe96d0a4.jpg": "/static/media/guidance.fe96d0a4.jpg",
+    "static/media/main6.3a67d2d2.jpg": "/static/media/main6.3a67d2d2.jpg",
+    "static/media/math.e617d275.jpg": "/static/media/math.e617d275.jpg",
+    "static/media/mentoring.543fa36b.jpg": "/static/media/mentoring.543fa36b.jpg",
+    "static/media/music.7c067050.jpg": "/static/media/music.7c067050.jpg",
+    "static/media/navbar_logo.5ccda5e8.png": "/static/media/navbar_logo.5ccda5e8.png",
+    "static/media/network.172fdfca.png": "/static/media/network.172fdfca.png",
+    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf",
+    "static/media/smart_man.03e04055.png": "/static/media/smart_man.03e04055.png",
+    "static/media/speak.0b004a64.jpg": "/static/media/speak.0b004a64.jpg",
+    "static/media/thinking.99471728.jpg": "/static/media/thinking.99471728.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9607c9bc.js",
+    "static/css/2.65f8c46c.chunk.css",
+    "static/js/2.e8898a50.chunk.js",
+    "static/css/main.ca063113.chunk.css",
+    "static/js/main.616f5890.chunk.js"
+  ]
+}
