@@ -80,14 +80,33 @@ class AboutUs extends React.Component {
             </ul>
             <div className="aboutus-descp">
               <h3>2016 :- Inception</h3>
-              <p>This year marks the initiation/advent of the darpan worli with a vision of    offering the right knowledge & guidance to the youth of our country based on the vedic teachings. </p>
+              <p>
+                This year marks the initiation/advent of the darpan worli with a
+                vision of offering the right knowledge & guidance to the youth
+                of our country based on the vedic teachings.{" "}
+              </p>
               <h3>2018 :- Growth</h3>
-              <p> With Time more people join the darpan worli club, undergoing counselling and started their journey towards becoming the best version of themselves. </p>
+              <p>
+                {" "}
+                With Time more people join the darpan worli club, undergoing
+                counselling and started their journey towards becoming the best
+                version of themselves.{" "}
+              </p>
               <h3> 2020 :- Outreach</h3>
-              <p>Several education institutions collaborate with darpan worli recognizing the necessity of vedic education for the current generation, which can inculcate values, principles and lead them to the right direction in life.</p>
+              <p>
+                Several education institutions collaborate with darpan worli
+                recognizing the necessity of vedic education for the current
+                generation, which can inculcate values, principles and lead them
+                to the right direction in life.
+              </p>
               <h3>2022 :- Digital expansion</h3>
-              <p>Development & Launch of the Official website of Darpan Worli & Social Media Handles to create awareness of our activities, programs & teachings for the people seeking to know more about the right knowledge and guidance.</p>
-          </div>
+              <p>
+                Development & Launch of the Official website of Darpan Worli &
+                Social Media Handles to create awareness of our activities,
+                programs & teachings for the people seeking to know more about
+                the right knowledge and guidance.
+              </p>
+            </div>
           </div>
         </div>
       </div>

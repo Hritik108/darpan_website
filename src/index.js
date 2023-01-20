@@ -8,7 +8,7 @@ import Career from "./pages/Careerpage";
 import Footer from "./components/Footer";
 import Contactus from "./pages/contactuspage";
 import Aboutus from "./pages/Aboutus";
-
+import { HelmetProvider } from "react-helmet-async";
 // const root = ReactDOM.createRoot(document.getElementById("root"));
 // root.render(
 
@@ -16,16 +16,18 @@ import Aboutus from "./pages/Aboutus";
 
 ReactDOM.render(
   <div>
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="Home" element={<HomePage />} />
-        <Route path="About" element={<Aboutus />} />
-        <Route path="Career" element={<Career />} />
-        <Route path="Contact" element={<Contactus />} />
-      </Routes>
-      <Footer />
-    </BrowserRouter>
+    <HelmetProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="Home" element={<HomePage />} />
+          <Route path="About" element={<Aboutus />} />
+          <Route path="Career" element={<Career />} />
+          <Route path="Contact" element={<Contactus />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
+    </HelmetProvider>
   </div>,
   document.getElementById("root")
 );
