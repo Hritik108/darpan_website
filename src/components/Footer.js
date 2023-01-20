@@ -26,7 +26,7 @@ class Footer extends React.Component {
             <ul className="footer-links">
               <li>
                 {" "}
-                <a href="">Home</a>{" "}
+                <a href="/">Home</a>{" "}
               </li>
               <li>
                 {" "}
@@ -85,12 +85,13 @@ class Footer extends React.Component {
             <div className="social-media">
               <a
                 href="https://instagram.com/darpan_worli?igshid=YmMyMTA2M2Y="
-                target="_blank"> <FaInstagram className="icons" style={{fontSize:"25px"}} />
+                target="_blank" rel="noreferrer"> <FaInstagram className="icons" style={{fontSize:"25px"}} />
                 
               </a>
               <a
                 href="https://www.youtube.com/channel/UCFkt3MlyuRUpGXfIe3zlGGw"
                 target="_blank"
+                rel="noreferrer"
               >
                 <FaYoutube className="icons" style={{fontSize:"25px"}} />
               </a>
@@ -98,7 +99,7 @@ class Footer extends React.Component {
               <a href="">
                 <FaFacebookSquare className="icons" id="fb" style={{fontSize:"25px"}} />
               </a>
-              <a href="https://chat.whatsapp.com/EXCfFSHesMZ2KDfdPm12pH" target="_blank">
+              <a href="https://chat.whatsapp.com/EXCfFSHesMZ2KDfdPm12pH" target="_blank" rel="noreferrer">
                 {/* <Button id="whatsappbtn" variant="outlined"> */}
                 <FaWhatsapp id="wp-icon" className="icons" style={{fontSize:"25px"}} /> 
                 {/* &nbsp; Whatsapp</Button> */}

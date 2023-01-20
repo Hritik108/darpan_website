@@ -63,7 +63,7 @@ function Contactusform() {
           <a
             href="https://instagram.com/darpan_worli?igshid=YmMyMTA2M2Y="
             target="_blank"
-            rel="noopener"
+            rel="noreferrer"
           >
             {" "}
             <FaInstagram className="icons" style={{ fontSize: "25px" }} />
@@ -71,7 +71,7 @@ function Contactusform() {
           <a
             href="https://www.youtube.com/channel/UCFkt3MlyuRUpGXfIe3zlGGw"
             target="_blank"
-            rel="noopener"
+            rel="noreferrer"
           >
             <FaYoutube className="icons" style={{ fontSize: "25px" }} />
           </a>
@@ -80,10 +80,10 @@ function Contactusform() {
             <FaFacebookSquare className="icons" style={{ fontSize: "25px" }} />
           </a>
           <p id="wp">Connect With Us On Whatsapp </p>
-          <a href="https://chat.whatsapp.com/EXCfFSHesMZ2KDfdPm12pH" target="_blank"><Button id="contct-whatsappbtn" variant="outlined"><FaWhatsapp style={{fontSize:"20px"}} /> &nbsp; Whatsapp</Button></a>
+          <a href="https://chat.whatsapp.com/EXCfFSHesMZ2KDfdPm12pH" target="_blank" rel="noreferrer"><Button id="contct-whatsappbtn" variant="outlined"><FaWhatsapp style={{fontSize:"20px"}} /> &nbsp; Whatsapp</Button></a>
         </div>
       </div>
-      <form className="contactform" onSubmit={onSubmit}>
+      <form className="contactform"  onSubmit={onSubmit}>
         <h1 id="form-heading">Get in Touch</h1>
         <div className="Contactusform0 contact-input">
           <input id="name" type="text" placeholder="Your name.." required />

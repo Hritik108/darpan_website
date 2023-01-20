@@ -120,9 +120,9 @@ class Navbar extends React.Component {
       return (
         <div className="navbar-menuB">
           <div className="menu-sidebar">
-            <a className="closebtn" onClick={() => closeNav()}>
+            <button className="closebtn" onClick={() => closeNav()} style={{ background: 'none', border:'none'}}>
               ×
-            </a>
+            </button>
             <a className="path" href="/Home">
               Home
             </a>
@@ -142,7 +142,7 @@ class Navbar extends React.Component {
           <div className="hamburger" onClick={() => openNav()}>
             ☰
           </div>
-          <img id="navbar-logo" src={Logo} />
+          <img id="navbar-logo" src={Logo} alt="Darpan_Logo"/>
         </div>
       );
     }
