@@ -15,7 +15,7 @@ class Career extends React.Component {
           <link rel="canonical" href="/Career" />
           <meta
             name="keywords"
-            content="Darpan , Worli , IYS Worli , Career Counseling"
+            content=" dapran ,worli ,Darpan , Worli , IYS Worli , Career Counseling"
           />
         </Helmet>
         <Navbar />
