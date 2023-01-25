@@ -14,11 +14,15 @@ class HomePage extends React.Component {
       <div>
         <Helmet>
           <title>Home page</title>
-          <meta name="description" content="Reach us darpan worli" />
+          <meta
+            name="description"
+            content="Darpan Worli is youth group from Worli Mumbai working towards academic growth, professional well being and character building of youngsters. Darpan Worli currently has over 100 active volunteers. It has impacted lives of many students and is growing continuously"
+          />
+          <link rel="canonical" href="/" />
           <link rel="canonical" href="/Home" />
           <meta
             name="keywords"
-            content="Darpan , Worli , IYS Worli , Career Counseling"
+            content=" dapran ,worli ,Darpan , Worli , IYS Worli , Career Counseling"
           />
         </Helmet>
         <div

@@ -1,6 +1,10 @@
-body {
+/* body {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   font-family: -apple-system-tall-body
+} */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;600&display=swap');
+body {
+  font-family: "Barlow Semi Condensed";
 }
 .navbar{
   padding-bottom: 5%;  
