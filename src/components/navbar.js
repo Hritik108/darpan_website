@@ -133,9 +133,9 @@ class Navbar extends React.Component {
             <a className="path" href="/about">
               About Us
             </a>
-            <a className="path" href="/events">
+            {/* <a className="path" href="/events">
               Events
-            </a>
+            </a> */}
             <a className="path" href="/career">
               Career Counseling
             </a>
