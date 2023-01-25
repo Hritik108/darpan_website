@@ -10,13 +10,14 @@ class Services extends React.Component {
   render() {
     return (
       <div className="Appointment-services Appointment">
-        {/* <div className="Appointment-services1">
+        <div className="Appointment-services1">
           <div className="Appointment-image">
             <img alt="Bhagvad Gita Classes" src={buddha} />
           </div>
 
           <div className="Appointment-services1-2 Appointment-services-desc">
-            <h1>Bhagvad Gita Classes For Youth</h1>
+            {/* <h1>Bhagvad Gita Classes For Youth</h1> */}
+            <h1>Character Building Classes</h1>
             <p>
               We are devoted to understand and spread the pure knowledge of
               Bagvad Gita and its application in day to day life. We provide an
@@ -40,7 +41,7 @@ class Services extends React.Component {
               <button className="service-buttons">Get in Touch</button>
             </a>
           </div>
-        </div> */}
+        </div>
 
         <div className="Appointment-services2">
           <div className="Appointment-services2-2 Appointment-services-desc">
