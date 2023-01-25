@@ -10,7 +10,7 @@ class Services extends React.Component {
   render() {
     return (
       <div className="Appointment-services Appointment">
-        <div className="Appointment-services1">
+        {/* <div className="Appointment-services1">
           <div className="Appointment-image">
             <img alt="Bhagvad Gita Classes" src={buddha} />
           </div>
@@ -36,11 +36,11 @@ class Services extends React.Component {
               -Start building a solid foundation on which all aspects of life
               will be firmly built on.
             </p>
-            <a href="/Contact"><button className="service-buttons">Get in Touch</button></a>
+            <a href="/Contact">
+              <button className="service-buttons">Get in Touch</button>
+            </a>
           </div>
-        
-
-        </div>
+        </div> */}
 
         <div className="Appointment-services2">
           <div className="Appointment-services2-2 Appointment-services-desc">
@@ -54,7 +54,9 @@ class Services extends React.Component {
               their fear of public speaking and become excellent speakers, all
               this while forming a great bond with everyone.{" "}
             </p>
-            <a href="/Contact"><button className="service-buttons">Get in Touch</button></a>
+            <a href="/Contact">
+              <button className="service-buttons">Get in Touch</button>
+            </a>
           </div>
           <div className="Appointment-image">
             <img alt="Public Speaking Club Worli" src={speak} />
@@ -83,7 +85,9 @@ class Services extends React.Component {
               Worli, students will experience the joy of collaboration and a
               social musical environment.{" "}
             </p>
-            <a href="/Contact"><button className="service-buttons">Get in Touch</button></a>
+            <a href="/Contact">
+              <button className="service-buttons">Get in Touch</button>
+            </a>
           </div>
         </div>
 
@@ -100,7 +104,9 @@ class Services extends React.Component {
               it will make a remarkable difference to your confidence and
               self-esteem.{" "}
             </p>
-            <a href="/Contact"><button className="service-buttons">Get in Touch</button></a>
+            <a href="/Contact">
+              <button className="service-buttons">Get in Touch</button>
+            </a>
           </div>
           <div className="Appointment-image">
             <img alt="Vedic Maths worli" src={math} />
