@@ -9,7 +9,7 @@ class Contactus extends React.Component {
         <Helmet>
           <title>Contact</title>
           <meta name="description" content="Reach us darpan worli" />
-          <link rel="canonical" href="/Contact" />
+          <link rel="canonical" href="https://www.darpanworli.in/contact" />
           <meta
             name="keywords"
             content=" dapran ,worli ,Darpan , Worli , IYS Worli , Career Counseling"

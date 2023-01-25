@@ -9,7 +9,7 @@ class Aboutus extends React.Component {
         <Helmet>
           <title>About us</title>
           <meta name="description" content="About darpan worli" />
-          <link rel="canonical" href="/About" />
+          <link rel="canonical" href="https://www.darpanworli.in/about" />
           <meta
             name="keywords"
             content=" dapran ,worli ,Darpan , Worli , IYS Worli , Career Counseling"

@@ -12,7 +12,7 @@ class Career extends React.Component {
             name="description"
             content="Career counseling with darpan worli"
           />
-          <link rel="canonical" href="/Career" />
+          <link rel="canonical" href="https://www.darpanworli.in/career" />
           <meta
             name="keywords"
             content=" dapran ,worli ,Darpan , Worli , IYS Worli , Career Counseling"

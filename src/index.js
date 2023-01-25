@@ -20,10 +20,10 @@ ReactDOM.render(
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="Home" element={<HomePage />} />
-          <Route path="About" element={<Aboutus />} />
-          <Route path="Career" element={<Career />} />
-          <Route path="Contact" element={<Contactus />} />
+          <Route path="home" element={<HomePage />} />
+          <Route path="about" element={<Aboutus />} />
+          <Route path="career" element={<Career />} />
+          <Route path="contact" element={<Contactus />} />
         </Routes>
         <Footer />
       </BrowserRouter>
