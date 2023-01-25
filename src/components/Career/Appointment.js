@@ -19,10 +19,10 @@ class Appointment extends React.Component {
           </div>
           <div className="Appointment-right">
             <div>
-              <p className="Appointment-right-moto">
+              <h3 className="Appointment-right-moto">
                 Confused about <br />
                 Career Choices?
-              </p>
+              </h3>
               <p className="Appointment-right-moto-desc">
                 Nowadays there are a lot of career options to choose from, to
                 choose what's the best for you or finding out the right one that
@@ -67,7 +67,9 @@ class Appointment extends React.Component {
                 of achievements. Darpan worli has vowed to provide the best
                 guidance possible to the youth seeking it.
               </p>
-              <a href="/Contact"><button className="service-buttons">Get in Touch</button></a>
+              <a href="/Contact">
+                <button className="service-buttons">Get in Touch</button>
+              </a>
             </div>
           </div>
 
@@ -82,7 +84,9 @@ class Appointment extends React.Component {
                 of achievements. Darpan worli has vowed to provide the best
                 guidance possible to the youth seeking it.{" "}
               </p>
-              <a href="/Contact"><button className="service-buttons">Get in Touch</button></a>
+              <a href="/Contact">
+                <button className="service-buttons">Get in Touch</button>
+              </a>
             </div>
             <div className="Appointment-image">
               <img alt="desc" src={mentoring} />
@@ -106,7 +110,9 @@ class Appointment extends React.Component {
                 & adds value to every activity both personal and professional. &
                 as it is said “IQ wins the race, EQ wind the life”
               </p>
-              <a href="/Contact"><button className="service-buttons">Get in Touch</button></a>
+              <a href="/Contact">
+                <button className="service-buttons">Get in Touch</button>
+              </a>
             </div>
           </div>
 
@@ -122,7 +128,9 @@ class Appointment extends React.Component {
                 growth academically and personally which helps improve IQ as
                 well as EQ
               </p>
-              <a href="/Contact"><button className="service-buttons">Get in Touch</button></a>
+              <a href="/Contact">
+                <button className="service-buttons">Get in Touch</button>
+              </a>
             </div>
             <div className="Appointment-image">
               <img alt="desc" src={IQ} />
