@@ -59,7 +59,11 @@
    margin-top: 10%;
    width: 42vw;
    font-size: 1.2em;
-   text-align: justify;
+   /* text-align: justify; */
+}
+
+.Appointment-services2-2 p{
+text-align: justify;
 }
 
 .Appointment-services2 div img{
