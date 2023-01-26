@@ -79,18 +79,18 @@ class Navbar extends React.Component {
         <div className="navbar">
           <div className="navbar-main">
             <div className="navbar-logo">
-              <a href="/">
+              <a href="/home">
                 <img alt="Darpan Worli Logo" src={Logo} />
               </a>
             </div>
             <div className="navbar-right">
-              <a href="/Home">
+              <a href="/home">
                 Home
                 <div
                   className={`${this.state.active === "home" ? "circle" : ""}`}
                 ></div>
               </a>
-              <a href="/Career">
+              <a href="/career">
                 Career Counseling
                 <div
                   className={`${
@@ -98,13 +98,13 @@ class Navbar extends React.Component {
                   }`}
                 ></div>
               </a>
-              <a href="/About">
+              <a href="/about">
                 About Us
                 <div
                   className={`${this.state.active === "about" ? "circle" : ""}`}
                 ></div>
               </a>
-              <a href="/Contact">
+              <a href="/contact">
                 Contact Us
                 <div
                   className={`${
