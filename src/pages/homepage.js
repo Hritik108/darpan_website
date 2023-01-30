@@ -13,13 +13,13 @@ class HomePage extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Home page</title>
+          <title>Darpan Worli | Know Yourself Know Your Potential</title>
           <meta
             name="description"
             content="Darpan Worli is youth group from Worli Mumbai working towards academic growth, professional well being and character building of youngsters. Darpan Worli currently has over 100 active volunteers. It has impacted lives of many students and is growing continuously"
           />
-          <link rel="canonical" href="/" />
-          <link rel="canonical" href="/Home" />
+          <link rel="canonical" href="https://www.darpanworli.in/" />
+          <link rel="canonical" href="https://www.darpanworli.in/home" />
           <meta
             name="keywords"
             content=" dapran ,worli ,Darpan , Worli , IYS Worli , Career Counseling"

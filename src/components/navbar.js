@@ -18,17 +18,17 @@ class Navbar extends React.Component {
     window.addEventListener("scroll", this.handleScroll);
     window.addEventListener("resize", this.handleResize);
     this.handleResize();
-    if (window.location.pathname === "/Home") {
+    if (window.location.pathname === "/home") {
       this.setState({ active: "home" });
     } else if (window.location.pathname === "/") {
       this.setState({ active: "home" });
-    } else if (window.location.pathname === "/About") {
+    } else if (window.location.pathname === "/about") {
       this.setState({ active: "about" });
-    } else if (window.location.pathname === "/Events") {
+    } else if (window.location.pathname === "/events") {
       this.setState({ active: "events" });
-    } else if (window.location.pathname === "/Career") {
+    } else if (window.location.pathname === "/career") {
       this.setState({ active: "career" });
-    } else if (window.location.pathname === "/Contact") {
+    } else if (window.location.pathname === "/contact") {
       this.setState({ active: "contact" });
     }
   }
@@ -79,18 +79,18 @@ class Navbar extends React.Component {
         <div className="navbar">
           <div className="navbar-main">
             <div className="navbar-logo">
-              <a href="/">
+              <a href="/home">
                 <img alt="Darpan Worli Logo" src={Logo} />
               </a>
             </div>
             <div className="navbar-right">
-              <a href="/Home">
+              <a href="/home">
                 Home
                 <div
                   className={`${this.state.active === "home" ? "circle" : ""}`}
                 ></div>
               </a>
-              <a href="/Career">
+              <a href="/career">
                 Career Counseling
                 <div
                   className={`${
@@ -98,13 +98,13 @@ class Navbar extends React.Component {
                   }`}
                 ></div>
               </a>
-              <a href="/About">
+              <a href="/about">
                 About Us
                 <div
                   className={`${this.state.active === "about" ? "circle" : ""}`}
                 ></div>
               </a>
-              <a href="/Contact">
+              <a href="/contact">
                 Contact Us
                 <div
                   className={`${
@@ -120,29 +120,34 @@ class Navbar extends React.Component {
       return (
         <div className="navbar-menuB">
           <div className="menu-sidebar">
-            <button className="closebtn" onClick={() => closeNav()} style={{ background: 'none', border:'none'}}>
+            <button
+              className="closebtn"
+              onClick={() => closeNav()}
+              style={{ background: "none", border: "none" }}
+            >
               ×
             </button>
-            <a className="path" href="/Home">
+            <a className="path" href="/home">
               Home
             </a>
-            <a className="path" href="/About">
-              About Us
-            </a>
-            <a className="path" href="/Events">
-              Events
-            </a>
-            <a className="path" href="/Career">
+            <a className="path" href="/career">
               Career Counseling
             </a>
-            <a className="path" href="/Contact">
+            <a className="path" href="/about">
+              About Us
+            </a>
+            {/* <a className="path" href="/events">
+              Events
+            </a> */}
+
+            <a className="path" href="/contact">
               Contact Us
             </a>
           </div>
           <div className="hamburger" onClick={() => openNav()}>
             ☰
           </div>
-          <img id="navbar-logo" src={Logo} alt="Darpan_Logo"/>
+          <img id="navbar-logo" src={Logo} alt="Darpan_Logo" />
         </div>
       );
     }

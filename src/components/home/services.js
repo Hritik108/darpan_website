@@ -16,7 +16,12 @@ class Services extends React.Component {
           </div>
 
           <div className="Appointment-services1-2 Appointment-services-desc">
+<<<<<<< HEAD
             <h1>Character Building</h1>
+=======
+            {/* <h1>Bhagvad Gita Classes For Youth</h1> */}
+            <h1>Character Building Classes</h1>
+>>>>>>> 44b5c0b7525f1ebabbccd5f822bf9f820db466fb
             <p>
               We are devoted to understand and spread the pure knowledge of
               Bagvad Gita and its application in day to day life. We provide an
