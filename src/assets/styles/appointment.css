@@ -168,6 +168,7 @@ text-align: justify;
          }
          .Appointment-top{
             height: fit-content;
+            margin-bottom: 12vw;
          }
 
 }
