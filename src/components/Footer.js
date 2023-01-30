@@ -96,9 +96,9 @@ class Footer extends React.Component {
                 <FaYoutube className="icons" style={{fontSize:"25px"}} />
               </a>
 
-              <a href="">
+              {/* <a href="">
                 <FaFacebookSquare className="icons" id="fb" style={{fontSize:"25px"}} />
-              </a>
+              </a> */}
               <a href="https://chat.whatsapp.com/EXCfFSHesMZ2KDfdPm12pH" target="_blank" rel="noreferrer">
                 {/* <Button id="whatsappbtn" variant="outlined"> */}
                 <FaWhatsapp id="wp-icon" className="icons" style={{fontSize:"25px"}} /> 

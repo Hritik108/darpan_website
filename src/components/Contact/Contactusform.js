@@ -76,9 +76,9 @@ function Contactusform() {
             <FaYoutube className="icons" style={{ fontSize: "25px" }} />
           </a>
 
-          <a href="" rel="noopener">
+          {/* <a href="" rel="noopener">
             <FaFacebookSquare className="icons" style={{ fontSize: "25px" }} />
-          </a>
+          </a> */}
           <p id="wp">Connect With Us On Whatsapp </p>
           <a href="https://chat.whatsapp.com/EXCfFSHesMZ2KDfdPm12pH" target="_blank" rel="noreferrer"><Button id="contct-whatsappbtn" variant="outlined"><FaWhatsapp style={{fontSize:"20px"}} /> &nbsp; Whatsapp</Button></a>
         </div>
