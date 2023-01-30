@@ -33,7 +33,7 @@ class HomePage extends React.Component {
           <HomeIndex />
         </div>
         <Services />
-        <HomeTestimonial />
+        {/* <HomeTestimonial /> */}
       </div>
     );
   }
