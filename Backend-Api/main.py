@@ -9,6 +9,9 @@ app = Flask(__name__, static_folder='../build')
 # CORS(app)
 # Serve React App
 
+@app.route("/test")
+def test():
+    return "I AM WORKING"
 
 @app.route("/get_data", methods=["POST"])
 def get_data():
@@ -45,4 +48,4 @@ def serve(path):
 
 
 if __name__ == '__main__':
-    app.run(use_reloader=True, debug=True, port=5050, threaded=True)
+    app.run(use_reloader=True, debug=True,host="0.0.0.0", port=5050, threaded=True)
